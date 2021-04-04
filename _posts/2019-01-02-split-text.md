@@ -11,7 +11,7 @@ Given a string separated by space: **Jimmy James**
 
 To get the left part of the string, us the following formula:
 
-`=LEFT(B2,FIND(" ",B2)-1`
+```=LEFT(B2,FIND(" ",B2)-1```
 
 To get the right part of the string, us the following formula:
 
