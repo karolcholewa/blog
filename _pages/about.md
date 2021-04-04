@@ -4,26 +4,16 @@ title: About
 permalink: /about/
 ---
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
+My name is Karol Cholewa (Carlito) and this is my **technical-marketer's blog**. Around 2018 I was picked by the email marketing profession to build and automate emails using Salesforce Marketing Cloud platform and my modest web development skills. I'd like to keep doing it for another decade or longer. 
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+### Purpose
 
-## Features
+Posts on this blog are practical notes written in a plain, simplified English similar to the language found in technical documentation. I document anything that's useful for me at work that is: **HTML email hacks, MS Excel formulas, SQL queries, JavaScript snippets**, email automation recipies, and ideas. Practical examples are tested and used with a satisfactory results. After a while some of these notes may need a revision which I don't guarantee.
 
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
+### Copyrights
 
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+The source code for this website has been forked from the Github project [Jekyll Now by Barry Clark](https://github.com/barryclark/jekyll-now/blob/master/LICENSE). 
+
+### Let's connect
+* [LinkedIn](https://www.linkedin.com/in/karolcholewa/)
+* [Twitter](https://twitter.com/karolcholewa)
