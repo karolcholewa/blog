@@ -4,7 +4,7 @@ title: "Split Text String at a Specific Character"
 categories: XLSX
 ---
 
-This is especially useful to split a full name into first and last name.
+An MS Excel formula especially useful to split a full name into first and last name.
 
 ### Example 1
 Given a string separated by space: **Jimmy James**
