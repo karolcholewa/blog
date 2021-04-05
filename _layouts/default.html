@@ -39,6 +39,18 @@
 
       <div class="wrapper-main">
         <div id="main" role="main" class="container">
+          <div class="post-tags">
+            {% if post %}
+              {% assign categories = post.categories %}
+            {% else %}
+              {% assign categories = page.categories %}
+            {% endif %}
+            {% for category in categories %}
+              <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+              {% unless forloop.last %}&nbsp;{% endunless %}
+            {% endfor %}
+          </div>
+
           {{ content }}
         </div>
       </div>
