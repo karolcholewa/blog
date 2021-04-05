@@ -6,7 +6,7 @@ categories: [HTML, EmailHack]
 
 This is a simple HTML hack for emails. It was useful for example to hide an animated GIF for Outlook and show a static image instead. Nowadays, Outlook desktop clients support animated GIFs but the hack is still valid for hiding content depending on an email client.
 
-```
+```HTML
 <!--[if mso]>
 OUTLOOK CONTENT (STATIC IMAGE)
 <![endif]-->
