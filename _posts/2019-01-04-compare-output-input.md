@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Compare Output List with Input List"
+title: "Compare Lists and Find Same Records"
 categories: XLSX
 ---
 

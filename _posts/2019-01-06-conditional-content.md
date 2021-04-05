@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Conditional content based on an email client"
+title: "Conditional Content Based on an Email Client"
 categories: [HTML, EmailHack]
 ---
 
