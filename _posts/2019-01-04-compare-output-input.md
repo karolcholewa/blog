@@ -49,10 +49,17 @@ An MS Excel formula to compare two lists with records. Use it to find records fr
 ## Formula:
 
 
-`=IF(COUNTIF($B:$B,$A2),CONCATENATE(A2," is active"),CONCATENATE(A2," not active"))`
+```
+=IF(COUNTIF($B:$B,$A2),CONCATENATE(A2," is active"),CONCATENATE(A2," not active"))
+
+```
 
 
 To add a conditional formatting to the text use *Specific Text containing "not active"*, fill with for example red.
 
 To sum up not active users use the following formula:
-`=COUNTIF(C:C,"*not*")`
+
+```
+=COUNTIF(C:C,"*not*")
+
+```

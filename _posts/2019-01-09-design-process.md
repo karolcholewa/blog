@@ -7,18 +7,17 @@ categories: Management
 I don’t remember the book that this process was described in, but it might have been around 2014. Probably from a UX Bookclub in Kraków, I used to joyfully attend.
 
 
-
 1. Have an idea
 2. Write it down
 3. and move on to the next one
 
 **Brief**, **Research** and insights (iterative), **Design** (iterative), Solution (iterative), Production
 
-### Brief
+## Brief
 
 Good design arises from the initial problem, goals, audience, or leadership needs, business plans. It reflects the identity and brand of the client.
 
-### Research
+## Research
 
 
 
@@ -32,10 +31,10 @@ Good design arises from the initial problem, goals, audience, or leadership need
     *   Communicate a single thing about this product
 *   Task-based usability
 *   Start building virtual sketchbook
-*   SWOT - Strengths, Weaknesses, Opportunities, Threats \
+*   SWOT - Strengths, Weaknesses, Opportunities, Threats
 
 
-### Design
+## Design
 
 
 
