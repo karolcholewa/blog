@@ -6,6 +6,7 @@ categories: [EmailMarketing, SFMC]
 
 
 This is a part of a Trailhead online training: *Email Creation and Sending.*
+I've used its content to list useful terms related to tracking and to refer to them as a useful glossary. Of course this is a borrowed content for personal use.
 
 Data is the key to understanding your customer and optimizing future email sends - and for that, Email Studio has Brandon (and you!) covered. Once Brandon has sent his weekly promotional email, he can see how it performed in the **Tracking** tab, which allows him to view:
 
