@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Split Text String at a Specific Character"
-categories: XLSX
+categories: MSExcel
 ---
 
 An MS Excel formula especially useful to split a full name into first and last name.
