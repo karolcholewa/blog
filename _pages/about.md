@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello World! My name is Karol (Carlito) and I work in a technology department supporting digital marketing teams in Europe and Africa. Around 2018 *I was picked by the email marketing profession* to build and automate emails using Salesforce Marketing Cloud platform for Herbalife Nutrition. I'd like to keep working with **Salesforce** and its **Trailblazers Community** until I retire.
+My name is Karol (Carlito) and I work in a technology department supporting digital marketing teams in Europe and Africa. Around 2018 *I was picked by the email marketing profession* to build and automate emails using Salesforce Marketing Cloud platform for Herbalife Nutrition. I'd like to keep working with **Salesforce** and its **Trailblazers Community** until I retire.
 
 ## Purpose
 
@@ -12,7 +12,9 @@ I can't memorize it all, therefore I take notes. The posts on this blog are my n
 
 ## Copyrights
 
-The source code for this website has been forked from a 'ridiculously elegant Jekyll theme' called Reverie. You can find and praise the project on [Amit Merchant's Github repo](https://github.com/amitmerchant1990/reverie). 
+The source code for this website has been forked from a 'ridiculously elegant Jekyll theme' called Reverie. You can find and praise the project on [Amit Merchant's Github repo](https://github.com/amitmerchant1990/reverie).
+I attribute each post with resources that I used to do the job and later to document the solution as a note.
+You can use content from this webblog without any restrictions apart from those inherited from other resources that I used to create my note.
 
 ## Let's connect
 * Visit my profile on [LinkedIn](https://www.linkedin.com/in/karolcholewa/)
