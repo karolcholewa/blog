@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Codepen Preview Tip"
-categories: Tip
+categories: Technology
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Liveclicker Demo Evaluation"
-categories: [EmailMarketing, Tools]
+categories: [EmailMarketing, Technology]
 ---
 
 [Liveclicker](https://www.liveclicker.com) is a platform that provides features and enhancements not found in a plain email marketing campaign. You can send to emails with live promos, videos, and **countdowns**. 
