@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Conditional Content Based on an Email Client"
-categories: [HTML, EmailHack]
+categories: HTML
 ---
 
 This is a simple HTML hack for emails. It was useful for example to hide an animated GIF for Outlook and show a static image instead. Nowadays, Outlook desktop clients support animated GIFs but the hack is still valid for hiding content depending on an email client.
