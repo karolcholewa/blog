@@ -7,7 +7,7 @@ categories: HTML
 
 With the plethora of rendering issues that comes with having to support Outlook, it is sometimes useful to target Outlook with specific styles. Fortunately, targeting various versions of Outlook is relatively easy using conditional CSS.
 
-```html
+```css
 <!--[if gte mso 12]>
     <style>
          ...
