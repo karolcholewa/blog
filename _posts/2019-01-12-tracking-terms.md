@@ -5,12 +5,8 @@ categories: [EmailMarketing, SFMC]
 ---
 
 
-This is a part of a Trailhead online training: *Email Creation and Sending.*
-I've used its content to list useful terms related to tracking and to refer to them as a useful glossary. Of course this is a borrowed content for personal use.
-
-Data is the key to understanding your customer and optimizing future email sends - and for that, Email Studio has Brandon (and you!) covered. Once Brandon has sent his weekly promotional email, he can see how it performed in the **Tracking** tab, which allows him to view:
-
-
+This is a part of the official Trailhead online training: [Email Creation and Sending.](https://trailhead.salesforce.com/en/content/learn/modules/email-creation-and-sending)
+I've used its content to list useful terms related to tracking and to refer to them as a useful glossary.
 
 *   **Sent**- Total number of emails sent.
 *  **Delivered**- Total number of emails delivered.
@@ -24,6 +20,6 @@ Data is the key to understanding your customer and optimizing future email sends
 *  **Unsubscribes**- Total number of subscribers who clicked unsubscribe.
 *  **Unsubscribe Rate**- Percentage of subscribers who clicked unsubscribe compared to total number of emails delivered
 
-Click Set Grid Preferences to see any metrics not currently viewable.
 
-Brandon can also capture how many emails are forwarded and how many new subscribers each forward generates. He can track subscriber performance over time and even compare sends.
+## Resources
+https://trailhead.salesforce.com/en/content/learn/modules/email-creation-and-sending
