@@ -4,7 +4,7 @@ title: "Migration to Content Builder"
 categories: SFMC
 ---
 
-Content Builder is a lot like a library of content for Marketing Cloud account. These are my notes for consideration when migrating from Classic Email to CB.
+Content Builder is a lot like a library of content for Marketing Cloud account. As my organization has migrated from Classic Email to Content Builder recently, these are my notes to consider for this or even similar transitions.
 
 Ask a general open question: what problems can you solve with Content Builder?
 
