@@ -34,13 +34,10 @@ Hello Attendees!
 Please join our webinar this Friday at 3pm. 
 We will present new features for the ACME mobile application.
 
-
 Add the event to your calendar.
 
-[Apple ](outlook-event.ics) &#124; [Yahoo ](outlook-event.ics) &#124; [Outlook ](outlook-event.ics) &#124; Google
-
+[Apple ](outlook-event.ics) &#124; [Yahoo ](outlook-event.ics) &#124; [Outlook ](outlook-event.ics) &#124; Google 
 </span>
-
 
 ## Email Sample 2 (with conditional formatting showing/hiding buttons)
 
