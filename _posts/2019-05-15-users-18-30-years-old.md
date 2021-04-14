@@ -10,33 +10,19 @@ This is a useful query for segmenting subscribers 18-30 years old. Normally it's
 
 ```sql
 SELECT 
-ID as MB_ID,
-EmailAddress as Email,
-SubscriberKey as Subscriber_Key,
-[First Name] as First_Name,
-[Last Name] as Last_Name,
-[Residence Country] as COR,
-Country as COP,
-Language as Language,
-SUBSTRING(turkey.DOB, 1, 10) as DoB
-FROM [Turkey Subscriber Inventory] turkey
+ID, EmailAddress, SubscriberKey, FirstName, LastName, Country
+SUBSTRING(myDE.DOB, 1, 10) AS DoB
+FROM [My Data Extension] AS myDE
 WHERE
-SUBSTRING(turkey.DOB, 7, 4) IN ('2001','2000','1999','1998','1997','1996','1995','1994','1993','1992','1991','1990','1989')
+SUBSTRING(myDE.DOB, 7, 4) IN ('2001','2000','1999','1998','1997','1996','1995','1994','1993','1992','1991','1990','1989')
 ```
 
 ## Advanced, proper solution with dynamic year calculation
 
 ```sql
 SELECT 
-ID as MB_ID,
-EmailAddress as Email,
-SubscriberKey as Subscriber_Key,
-[First Name] as First_Name,
-[Last Name] as Last_Name,
-[Residence Country] as COR,
-Country as COP,
-Language as Language,
+ID, EmailAddress, SubscriberKey, FirstName, LastName, Country
 LEFT([DOB], CHARINDEX('/', [DOB], (CHARINDEX('/', [DOB])+1))+5) AS [DoB]
-FROM [Turkey Subscriber Inventory] turkey
+FROM [My Data Extension]
 WHERE YEAR(GETDATE()) - CAST(SUBSTRING([DOB], CHARINDEX('/', [DOB], (CHARINDEX('/', [DOB])+1))+1, 4) AS INT) BETWEEN 18 AND 30
 ```
