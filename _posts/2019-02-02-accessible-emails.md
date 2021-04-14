@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Accessible Emails"
-categories: HTML
+categories: EmailMarketing
 ---
 Email is a powerful means of communication due to its universality and simplicity. Although initially limited to early adopters in universities, goverment agencies or tech companies, after over 40 years of existence it became a ubiquitous channel for personal relationship and brands or goods marketing. Similarly to the web, as it has been exposed to a broader audience, email should overcome limitations related to disabilities and inabilities of different kinds for human beings. Whether it is impaired hearing, movement, sight or cognitive ability, email and web technology should meet the goal of including everyone with no exceptions.
 

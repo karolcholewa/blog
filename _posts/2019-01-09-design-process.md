@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Desing Process"
-categories: Management
+categories: Career
 ---
 
 I don’t remember the book that this process was described in, but it might have been around 2014. Probably from a UX Bookclub in Kraków, I used to joyfully attend.
