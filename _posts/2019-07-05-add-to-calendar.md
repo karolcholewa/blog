@@ -28,7 +28,7 @@ Use this in an invitation email to a webinar or an event.
 
 ## Email Sample 1 (links visible for all recipients)
 
-<span style="color:grey">
+<div style="color:grey">
 Hello Attendees!
 
 Please join our webinar this Friday at 3pm. 
@@ -37,7 +37,7 @@ We will present new features for the ACME mobile application.
 Add the event to your calendar.
 
 [Apple ](outlook-event.ics) &#124; [Yahoo ](outlook-event.ics) &#124; [Outlook ](outlook-event.ics) &#124; Google 
-</span>
+</div>
 
 ## Email Sample 2 (with conditional formatting showing/hiding buttons)
 
