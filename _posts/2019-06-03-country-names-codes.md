@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Convert Full Country Names Into Country Codes"
-categories: XLSX
+categories: MSExcel
 ---
 
 This one is useful for data preparation before importing records to a standard data extension. For example you will filter N records by a column Country. If you build a set of filters and filtered data extensions from scratch - this is not an issue. Look up the Country column in your source data file and make sure your filter uses the same value in the criteria property. What if you want to reuse a set of existing filters, filter activities and make your life easier but your filters contain abbreviated country codes and the input file has full names in the Country column. Values don’t match but this is a simple formula for MS Excel file does the trick. You could do a conversion directly in the DE using the SQL CASE statement but in case you need to use an Excel file and import it, here is how. 
