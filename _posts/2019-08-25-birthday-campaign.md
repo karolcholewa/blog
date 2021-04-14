@@ -17,7 +17,7 @@ To create a simple Birthday campaign I used **Automation Studio** as follows:
 
 A date of birth needs to be imported as an attribute in All Subscribers or a column in Data Extension. You can compare the day and the month from the birthday date to today’s date values. Assuming that both are represented by the same data type (Date) it is relatively easy. Make sure this Date Extension **Is Sendable** - you will send the Birthday emails to this list.
 
-I covered a scenario with some data conversions [in this post.](https://youdontneedwp.com/emailgeek/sql-birthday-segment)
+I covered a scenario with some data conversions [in this post.](/birthday-segment/)
 
 
 ## Send Email Activity
@@ -34,5 +34,4 @@ Create a scheduled automation to run daily in the morning (for example at 7 am).
 
 *   [Automation Studio tutorial](https://youtu.be/A_LabRCwGRc?t=290)
 *   [Send Email Activity Help Page](https://help.salesforce.com/articleView?id=mc_as_send_email_activity.htm&type=5)
-*   [https://youdontneedwp.com/emailgeek/sql-birthday-segment](https://youdontneedwp.com/emailgeek/sql-birthday-segment)
-
+*   [Birthday Card Segment](/birthday-segment/)
