@@ -5,7 +5,7 @@ categories: SFMC
 ---
 
 
-This has been published on [LinkedIn](https://www.linkedin.com/pulse/salesforce-marketing-cloud-template-management-karol-cholewa) as well as become a part of the official [Solution Guide in the Salesforce Marketing Cloud](https://sforce.co/3aV4MYM) documentation.
+This case study has been published on [LinkedIn](https://www.linkedin.com/pulse/salesforce-marketing-cloud-template-management-karol-cholewa) as well as become a part of the official [Solution Guide in the Salesforce Marketing Cloud](https://sforce.co/3aV4MYM) documentation.
 
 
 **Single sourcing** and **content reuse strategy** is well known to content manager professionals. Both are my favorite terms in the content management area. Content reuse even appeared to be a _buzzword _over a decade ago. Can content reuse be justified for email marketing templates in Marketing Cloud Content Builder in 2019?
