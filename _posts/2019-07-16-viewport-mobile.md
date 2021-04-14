@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Viewport and Mobile Pages"
-categories: HTML
+categories: Web
 ---
 When we compare mobile browsers to desktop ones, the most obvious difference is a screen size. Sites must work on mobile devices, too, so we have to get them to display well on a small screen. The most important problems center on CSS, especially the dimensions of the viewport. If we’d copy the desktop model one-to-one, our CSS would start to misfire horrendously.
 
