@@ -3,6 +3,7 @@ layout: post
 title: "Email Marketing Campaign Considerations"
 categories: EmailMarketing
 ---
+
 Predictability stems from consistency. The better you plan your email marketing campaign the easier to react to the unexpected. Here is a list of no-brainers and some quite insightful findings:
 
 
