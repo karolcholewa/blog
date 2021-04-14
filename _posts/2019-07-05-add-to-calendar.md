@@ -26,7 +26,9 @@ Use this in an invitation email to a webinar or an event.
 5. Test the email for your Outlook account and for a Gmail account
 
 
-## Email Sample 1 (links visible for all recipients)
+## Email Sample 1
+
+### Links visible for all recipients
 
 Hello Attendees!
 
@@ -37,7 +39,9 @@ Add the event to your calendar.
 
 [Apple ](outlook-event.ics) &#124; [Yahoo ](outlook-event.ics) &#124; [Outlook ](outlook-event.ics) &#124; Google 
 
-## Email Sample 2 (with conditional formatting showing/hiding buttons)
+## Email Sample 2 
+
+### With conditional formatting showing/hiding buttons
 
 The snippet contains two versions: one is with a button to Google Calendar and ICS visible for all .gmail.com recipient and the second version has ICS calendar only (for non-gmail users that is Apple, Yahoo). More conditions can be created for other Calendars.
 
