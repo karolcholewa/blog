@@ -8,7 +8,7 @@ My name is Karol (Carlito) and I work in a technology department supporting digi
 
 ## Purpose
 
-I can't memorize it all, therefore I take notes. The posts on this blog are my notes written in a plain, simplified English similar to the language found in technical documentation. I document anything that's useful at work that is: **HTML email hacks, MSExcel formulas, SQL queries, JavaScript snippets**  plus some loose ideas or tips. All the practical examples have been tested and used by myself with a satisfactory result. After a while some of these notes may need a revision which I don't guarantee.
+I can't memorize it all, therefore I take notes. The posts on this blog are my notes written in a plain, simplified English similar to the language found in technical documentation. I document anything that's useful at work that is: **HTML email hacks, MSExcel formulas, SQL queries, JavaScript snippets**  plus some loose ideas about the web and career. All the practical examples have been tested and used by myself with a satisfactory result. After a while some of these notes may need a revision which I don't guarantee.
 
 ## Copyrights
 
