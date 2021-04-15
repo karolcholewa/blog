@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Counting, Grouping, and Sorting"
+title: "Empty a Trash Folder"
 categories: SSJS
 ---
 
