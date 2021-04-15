@@ -137,4 +137,4 @@ WHERE
 
 
 *   [https://stackoverflow.com/questions/7082449/exists-vs-join-and-use-of-exists-clause](https://stackoverflow.com/questions/7082449/exists-vs-join-and-use-of-exists-clause) 
-*   [https://youdontneedwp.com/emailgeek/sql-return-differences-between-two-tables](https://youdontneedwp.com/emailgeek/sql-return-differences-between-two-tables)
+*   [Return Differences Between Two Tables](/differences-between-tables/)

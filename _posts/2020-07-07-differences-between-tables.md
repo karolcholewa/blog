@@ -9,11 +9,11 @@ You have the two tables Table1 and Table2, both with a Column. To get the record
 ```sql
 SELECT T1.Column
 FROM Table1 AS T1
-LEFT JOIN
+    LEFT JOIN
     Table2 AS T2
-    ON (T1.Key = T2.Key)
-WHERE
-    T2.Column IS NULL
+    ON
+    T1.Key = T2.Key
+WHERE T2.Column IS NULL
 ```
 
 
@@ -25,10 +25,10 @@ SELECT
     ,T2.Column
 FROM
     Table1 AS T1
-FULL JOIN
+    FULL JOIN
     Table2 AS T2
     ON
-    (T1.Key = T2.Key)
+    T1.Key = T2.Key
 WHERE
     T1.Column IS NULL
     OR
