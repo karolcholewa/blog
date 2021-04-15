@@ -147,8 +147,7 @@ To limit the number of characters for the SMTPBounceReason message, I used the L
   <tr>
    <td>Soft bounce
    </td>
-   <td>5.2.2  Your message to &lt;example@domain.com> was automatically rejected:
-<p>
+   <td>5.2.2  Your message to &lt;example@domain.com&gt; was automatically rejected:
 Quota exceeded (mailbox for user is full)
    </td>
   </tr>
