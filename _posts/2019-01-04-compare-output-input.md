@@ -4,7 +4,7 @@ title: "Compare Lists and Find Same Records"
 categories: MSExcel
 ---
 
-An MS Excel formula to compare two lists with records. Use it to find records from a table A in a table B and highlight or mark with a specific text. It uses **countif** to count cells that meet specific condition. In Marketing Cloud you would use a SQL query to compare two tables but sometimes I need to work on Excel or exported CSV files as well. In this case I add a label "is Active" to the records from the Table A found in the Table B and a label "not Active" to those excluded from the Table B.
+An MS Excel formula to compare two lists with records. Use it to find records from a table A in a table B and highlight or mark with a specific text. It uses `countif` to count cells that meet specific condition. In Marketing Cloud you would use a SQL query to compare two tables but sometimes I need to work on Excel or exported CSV files as well. In this case I add a label "is Active" to the records from the Table A found in the Table B and a label "not Active" to those excluded from the Table B.
 
 ## Sample Data
 
