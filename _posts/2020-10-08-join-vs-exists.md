@@ -69,7 +69,7 @@ SELECT
     ,T2.Attribute3
 FROM
     Table1 AS T1
-INNER JOIN
+    INNER JOIN
     ENT._EnterpriseAttribute AS T2
     ON
     T1.Key = T2.Key

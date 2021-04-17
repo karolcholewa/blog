@@ -10,7 +10,7 @@ I haven’t tested it for some time, but this should work for merging two Excel 
 1. Hold down the **ALT + F11** keys, and it opens the Microsoft Visual Basic for Applications window.
 2. Click **Insert > Module**, and paste the following code in the Module Window
 
-```basic
+```
 Sub Combine()
 Dim J As Integer
 On Error Resume Next
@@ -33,9 +33,9 @@ End Sub
 3. Then press **F5** key to run the code, and all the data in the workbook has been merged into a new worksheet named **Combined** which will add before all worksheets.
 
 ## Resources
-- https://www.extendoffice.com/documents/excel/1184-excel-merge-multiple-worksheets-into-one.html
-- https://www.extendoffice.com/documents/excel/2891-excel-paste-unique.html
-- https://support.office.com/en-us/article/Split-text-into-different-columns-with-the-Convert-Text-to-Columns-Wizard-30B14928-5550-41F5-97CA-7A3E9C363ED7
+*   [Merge Multiple Worksheets Into One](https://www.extendoffice.com/documents/excel/1184-excel-merge-multiple-worksheets-into-one.html)
+*   [Paste Unique](https://www.extendoffice.com/documents/excel/2891-excel-paste-unique.html)
+*   [Convert Text to Columns](https://support.office.com/en-us/article/Split-text-into-different-columns-with-the-Convert-Text-to-Columns-Wizard-30B14928-5550-41F5-97CA-7A3E9C363ED7)
 
 
 

@@ -33,7 +33,7 @@ SELECT
     ,s.SubscriberKey
 FROM
     MyReport AS de
-INNER JOIN
+    INNER JOIN
     ENT._Subscribers AS s
     ON
     s.SubscriberKey = de.SubscriberKey
@@ -56,11 +56,11 @@ SELECT
     ,de.SubscriberKey
 FROM
     UkSubscribers AS de
-LEFT JOIN
+    LEFT JOIN
     ENT._EnterpriseAttribute AS ea
     ON
     ea.CustomerID = de.CustomerID
-INNER JOIN
+    INNER JOIN
     ENT._Sent AS s
     ON
     de.SubscriberKey = s.SubscriberKey
@@ -82,7 +82,7 @@ SELECT
     ,de.SubscriberKey
 FROM
     UkSubscribersNames AS de
-INNER JOIN
+    INNER JOIN
     ENT._Open AS o
     ON
     de.SubscriberKey = o.SubscriberKey
@@ -108,7 +108,7 @@ SELECT
     ,OpenDate
 FROM
     UkSubscribersNames AS de
-FULL OUTER JOIN
+    FULL OUTER JOIN
     UkSubscribersOpens AS o /*null will appear if not opened*/
     ON
     de.SubscriberKey = o.SubscriberKey

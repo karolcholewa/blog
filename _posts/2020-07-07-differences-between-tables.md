@@ -25,7 +25,7 @@ SELECT
     ,T2.Column
 FROM
     Table1 AS T1
-    FULL JOIN
+    FULL OUTER JOIN
     Table2 AS T2
     ON
     T1.Key = T2.Key

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Robust Bullet List"
-categories: SQL
+categories: HTML
 ---
 
 A short recipe for a good-looking bullet list for emails.

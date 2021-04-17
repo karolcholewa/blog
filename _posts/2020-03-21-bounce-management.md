@@ -25,11 +25,11 @@ SELECT DISTINCT
     ,b.[SMTPMessage]
 FROM
     ENT._Bounce AS b 
-INNER JOIN
+    INNER JOIN
     ENT._Subscribers AS s
     ON
     b.SubscriberID = s.SubscriberID 
-LEFT JOIN 
+    LEFT JOIN 
     ENT._EnterpriseAttribute AS e 
     ON
     b.SubscriberID = e._SubscriberID 
@@ -63,11 +63,11 @@ SELECT DISTINCT
     ,b.[SMTPMessage]
 FROM
     ENT._Bounce AS b
-INNER JOIN
+    INNER JOIN
     ENT._Subscribers AS s
     ON
     b.SubscriberID = s.SubscriberID
-LEFT JOIN
+    LEFT JOIN
     ENT._EnterpriseAttribute AS e
     ON
     b.SubscriberID = e._SubscriberID 
@@ -102,11 +102,11 @@ SELECT DISTINCT
     ,b.[SMTPMessage]
 FROM
     ENT._Bounce AS b
-INNER JOIN
+    INNER JOIN
     ENT._Subscribers AS s 
     ON
     b.SubscriberID = s.SubscriberID
-LEFT JOIN
+    LEFT JOIN
     ENT._EnterpriseAttribute AS e
     ON
     b.SubscriberID = e._SubscriberID
