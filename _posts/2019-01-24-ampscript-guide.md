@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The AMPScript Guide"
+title: "Book: The AMPScript Guide"
 categories: Book
 ---
 

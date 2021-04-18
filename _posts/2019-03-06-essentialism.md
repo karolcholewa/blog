@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Essentialism: The Disciplined Pursuit of Less"
+title: "Book: Essentialism: The Disciplined Pursuit of Less"
 categories: Book
 ---
 This is about the book *Essentialism: The Disciplined Pursuit of Less* by Greg McKeown. It is one of those books that will tell you how to live a fullfilled life...Yet, this one focuses on a sheer essentials of what you do and what you say yes to. It covers well values I preach and try to practice. A simple life philosophy in a highly elaborated and sophisticated world. 
