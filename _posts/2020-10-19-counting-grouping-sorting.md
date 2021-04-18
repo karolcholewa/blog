@@ -28,8 +28,6 @@ A list of countries or country codes, which you can use as a filter criteria.
 
 If there is a Table1 with users from different countries, represented in the columns UserID and Country, to list the countries and show the number of UserIDs for each country, use the aggregate function `COUNT()` and the `GROUP BY` statement.
 
-### from github
-{% gist 7088b85691e0402d996e7721801c11e64354e9c3 %}
 
 ```sql
 SELECT

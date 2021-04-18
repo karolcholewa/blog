@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-My name is Karol (Carlito) and I work in a technology department supporting digital marketing teams in Europe and Africa. Around 2018 *I was picked by the email marketing profession* to build and automate emails using Salesforce Marketing Cloud platform. I'd like to keep working with **Salesforce** and its **Trailblazers Community** forever and ever.
+My name is Karol (Carlito) and I work in a technology department supporting internal business partners that is digital Marketing Teams, Creative and Communications Teams, Customer Service Teams in the Europe and Africa region. Around 2018 *I was picked by the email marketing profession* to build and automate emails using Salesforce Marketing Cloud platform. This is how I became a [Trailblazer](https://trailblazer.me/id/kcholewa), proficient in **Salesforce Marketing Cloud**.
+
 
 ## Purpose
 
