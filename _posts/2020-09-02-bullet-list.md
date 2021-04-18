@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Robust Bullet List"
+title: "A Robust Bullet List"
 categories: HTML
 ---
 
