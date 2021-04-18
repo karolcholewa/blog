@@ -12,7 +12,7 @@ A few tips on grouping, counting or simply showing unique values.
 
 If there is a Table1 with users from different countries, represented in the columns UserID and Country, to list a distinct list of countries (the country will occur once only)  - use `DISTINCT`.
 
-
+### Wrote using a codeblock powered by [Pygments](https://pygments.org/)
 ```sql
 SELECT DISTINCT
     UserID
@@ -21,8 +21,11 @@ FROM
     Table1
 ```
 
+### Embedded using `{% gist [id] %}`
 
 {% gist b041b039ef849cf27d713384343cd97f %}
+
+### Embedded using `<script>`
 
 <script src="https://gist.github.com/karolcholewa/b041b039ef849cf27d713384343cd97f.js"></script>
 
