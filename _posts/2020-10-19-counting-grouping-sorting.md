@@ -21,7 +21,11 @@ FROM
     Table1
 ```
 
+
 {% gist b041b039ef849cf27d713384343cd97f %}
+
+<script src="https://gist.github.com/karolcholewa/b041b039ef849cf27d713384343cd97f.js"></script>
+
 
 https://gist.github.com/karolcholewa/b041b039ef849cf27d713384343cd97f
 
