@@ -5,10 +5,9 @@ categories: Career
 ---
 
 
-The goal always shapes the process. If you don't have a target then your "process" will not be targeted. I’ve found a few very well explained and attractive positions - perfect positions to be my goal. These are roles that combines email marketing strategy and development, SFMC administration and development, data modelling and email automation. It's great to have goals but visions can't substitute the reality of hard work toward a goal.
+The goal shapes the process. Have a goal so your process is targeted. I've listed roles that combine email marketing strategy and development, SFMC administration and development, data modelling and email automation. I am developing toward such roles.
 
-## Salesforce Marketing Cloud Developer
-(Solution Engineer)
+## Salesforce Marketing Cloud Developer (Solution Engineer)
 
 The candidate is expected to bring subject matter expertise on Salesforce Marketing Cloud (ExactTarget) email platform. He’d also develop and own the services that are critical to the success of our email clients, including email triggers/automation, web pages, platform configuration, data feeds, SQL queries, and other various components needed to run complex automated email campaigns.
 
