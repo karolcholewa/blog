@@ -51,6 +51,50 @@ Folder.Add(newFolder);
 
 ## Use SSJS WSProxy
 
+### Static versions
+
+```javascript
+<script runat = "server" >
+
+Platform.Load("core", "1.1.1");
+var prox = new Script.Util.WSProxy();
+
+cleanTrash("TO_DELETE_FILTERS", "filterdefinition");
+
+function cleanTrash(folderName, contentType) {
+    var cols = ["ObjectID", "ParentFolder.ID"]; //to delete a folder the ObjectID is needed; to create a folder an ID of the parent folder is needed
+    var folderName = folderName;
+    var contentType = contentType;
+    var filter = {
+        Property: "Name",
+        SimpleOperator: "Equals",
+        Value: folderName
+    };
+    var req = prox.retrieve("DataFolder", cols, filter);
+    var folderObjID = req.Results[0].ObjectID;
+    var parentFolderID = req.Results[0].ParentFolder.ID;
+    var config = {
+        "Name": folderName,
+        "Description": "API created folder",
+        "ParentFolder": {
+            ID: parentFolderID,
+            IDSpecified: true
+        },
+        "IsEditable": false,
+        "AllowChildren": true,
+        "ContentType": contentType
+    };
+    var delFolder = prox.deleteItem("DataFolder", {
+        "ObjectID": folderObjID
+    }); //delete the folder full of trash
+    var createFolder = prox.createItem("DataFolder", config);
+    return [delFolder, createFolder];
+};
+
+</script>
+```
+
+### Dynamic version
 
 ```javascript
 <script runat = "server" >

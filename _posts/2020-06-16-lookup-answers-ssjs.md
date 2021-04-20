@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SFMC Lookup Answers &ndash; SSJS"
-categories: SFMC
+categories: [SFMC, SSJS]
 ---
 These are notes from a Salesforce webinar - *SFMC Lookup Answers* - dedicated to Server Side JavaScript. SSJS is an old version of JS and it works **synchronously**. API calls have **asynchronous** options.
 
