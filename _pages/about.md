@@ -17,7 +17,7 @@ The source code for this website has been forked from a 'ridiculously elegant Je
 I attribute each post with resources that I used to solve a case and to document the solution as a note in this weblog.
 I share notes and you can use content from this weblog without restrictions apart from those inherited from other resources that I used for personal use.
 
-## Let's connect
+## Let's connect 🔗
 * Visit my profile on [LinkedIn](https://www.linkedin.com/in/karolcholewa/)
 * Follow on [Twitter](https://twitter.com/karolcholewa)
 * Send an email at karol.ch@gmail.com
