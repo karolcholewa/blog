@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-My name is Karol (Carlito) and I work in a technology team supporting internal business partners that is: Digital Marketing Teams, Creative and Communications Teams, and Customer Service Teams in the Europe and Africa region. Around 2018 *I was picked by the email marketing profession* to build and automate emails using Salesforce Marketing Cloud platform. This is how I became a [Trailblazer](https://trailblazer.me/id/kcholewa), proficient in email marketing and **Salesforce Marketing Cloud**.
+Hello! 👋 My name is Karol (Carlito) and this is my weblog where I put down anything worth reusing but not necessarily remembering by heart. I work in a technology team supporting internal business partners that is: Digital Marketing Teams, Creative and Communications Teams, and Customer Service Teams in the Europe and Africa region. Around 2018 *I was picked by the email marketing profession* to build and automate emails using Salesforce Marketing Cloud platform. This is how I became a [Trailblazer](https://trailblazer.me/id/kcholewa), proficient in email marketing and **Salesforce Marketing Cloud**.
 
 
 ## Purpose
 
-I can't memorize it all, therefore I take notes. The posts on this blog are my notes written in a plain, simplified English similar to the language found in technical documentation. I document anything that's useful at work that is: **HTML email hacks, MSExcel formulas, SQL queries, JavaScript snippets**  plus some loose ideas about the web and career. All the practical examples have been tested and used by myself with a satisfactory result. After a while some of these notes may need a revision which I don't guarantee.
+The posts on this blog are my notes written in a plain, simplified English similar to the language found in technical documentation. I document **HTML email hacks, MSExcel formulas, SQL queries, JavaScript snippets**  plus some loose ideas about the web and career. Posts have a publishing date and snippets or recipies presented within were successfuly used near those dates. As the time passes tools and applications do change therefore some of these notes may need a revision which I don't guarantee.
 
 ## Copyrights
 
