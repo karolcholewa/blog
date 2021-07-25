@@ -20,5 +20,4 @@ for @j=1 to 3 do]%%
 %%[for @k=1 to 6 do]%%
 %%=v(@d)=%% %%[next @k]%%<br>%%[next @j]%%
 %%=Concat(v(@v),"!")=%%<br>%%[next @i]%%
-
 ```
