@@ -136,5 +136,3 @@ function cleanTrash(folderName, contentType) {
 
 </script>
 ```
-
-Comment
