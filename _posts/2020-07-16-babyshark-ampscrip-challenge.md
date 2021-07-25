@@ -7,7 +7,7 @@ This is my submitted solution for the Baby Shark AMPScript challenge at How-to-S
 The total number of characters ended up at 361 (no spaces).
 
 
-```ampscript
+```javascript
 %%[var @v,@d,@a,@r,@s,@i,@j,@k
 set @d=" doo"
 set @a="Baby shark*Mommy shark*Daddy shark*Grandma shark*Grandpa shark*Let's go hunt*Run away*Safe at last*It's the end"
