@@ -1,5 +1,3 @@
----
----
 
 //
 // IMPORTS
@@ -423,13 +421,13 @@ footer {
 }
 
 body:after {
-    background: linear-gradient(to right, #ffffff   0, #2196F3   33%, #E91E63   66%, #000 100%);
-    width: 100%;
-    height: 5px;
-    top: 0;
-    position: absolute;
-    left: 0;
-    content: '';
+  background: linear-gradient(to right, #ffffff   0, #2196F3   33%, #E91E63   66%, #000 100%);
+  width: 100%;
+  height: 5px;
+  top: 0;
+  position: absolute;
+  left: 0;
+  content: '';
 }
 
 #bar {
@@ -823,7 +821,9 @@ Modules - reusable parts of our design
     left: 50%;
     margin-left: -30px;
     /* Force Hardware Acceleration in WebKit */
+    transform: translateZ(0);
     -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
   }
   .cssanimations .cd-timeline-img.is-hidden {
