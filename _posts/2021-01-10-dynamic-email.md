@@ -65,9 +65,6 @@ Text for an email body is stored in rows and columns of a non-sendable data exte
 Content chunks are stored in variables and displayed according to AMPScript rules. The subject line uses text concatenated in a logical, grammatically correct order. 
 Formatting can be inline static or dynamic.
 
-![Dynamic Email snapshot](/images/dynamicEmail.png)
-
-
 ## AMPScript Rules
 
 ```javascript
