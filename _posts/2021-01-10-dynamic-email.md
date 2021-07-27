@@ -72,9 +72,10 @@ Formatting can be inline static or dynamic.
 
 ```javascript
 %%[
+    
     var @firstName, @QualificationLevel, @qLevel, @colorQL, @language, @subjectLine, @content1, @content2, @content3, @content4, @content5, @content6, @content7, @content8, @disclaimer, @signature, @contentBlockID, @rows, @rowsEN, @row, @rowCount, @dir
 
-set @dir = "" 
+    set @dir = "" 
 
 /*Get values from the sendable DE*/
     set @QualificationLevel = Uppercase(AttributeValue("QualificationLevel"))
@@ -111,8 +112,8 @@ set @dir = ""
     endif
     
 /*The rule for Hebrew content; the attribute is placed in each content block on the nearest TD*/ 
-if @language == "Hebrew" then
-    set @dir = "rtl" 
-endif 
+    if @language == "Hebrew" then
+        set @dir = "rtl" 
+    endif 
 ]%%
 ```
