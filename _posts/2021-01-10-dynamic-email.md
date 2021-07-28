@@ -19,7 +19,7 @@ Working with multilingual marketing teams in EMEA makes content localization a s
 This is a crucial requirement with less strict CAN-SPAM obligations. It allows a sender to build and send email(s) from a single Business Unit and use a single template without a physical address or an unsubscribe link.
 
 ### Sendable and non-sendable data
-A sendable data extension has been created from a BI report. It contains mandatory Fields (SubscriberKey) and additional data such as RecognitionName, RecognitionLevel achieved, or Language of the recipient.
+A sendable data extension has been created from a BI report. It contains mandatory Fields (SubscriberKey) and additional data such as recognitionName, RecognitionLevel achieved, or Language of the recipient.
 In addition to the sendable DE, a non-sendable data extension has been created to store translated content.
 
 ### Personalization
@@ -39,26 +39,26 @@ This email campaing uses a BI report with rewards winners (recipients) and conte
 
 ### Sendable Data Extension - List
 Data from a report is manually imported to a sendable data extension. DE text Fields can look like so:
-- SubscriberKey
-- RecognitionName
-- RecognitionLevel
-- Country
-- Language
+- subscriberKey
+- recognitionName
+- recognitionLevel
+- country
+- language
 
 ### Non-sendable Data Extension - Content
 First, I build an English baseline. THEN I analize content blocks based on a content formatting. Data extension stores clear text amd text formatting is controlled by CSS within the email markup. Each content block is limited to the same formatting rules (font-size, color, font-weight, and so on). THEN I chunk it into content parts like so:
-- SubjectLine
-- Content1
-- Content2
-- Content3
-- Disclaimer
-- Signature
+- subjectLine
+- content1
+- content2
+- content3
+- disclaimer
+- signature
 - &hellip;
 
 Content chunks fit into data extension text Fields with tailored lengths. For shorter blocks reserve 50-128 characters and for longer parts 500 characters. Take into account that text size varies in dIFferent languages. 
 
 ## Email Content
-Text for an email body is stored in Rows and columns of a non-sendable data extension. For images I use image content boxes and place them directly in to the email body. Images appearance is toggled using AMPScript. All images are free from text and culturally universal and diversIFied suited for the European culture.
+Text for an email body is stored in rows and columns of a non-sendable data extension. For images I use image content boxes and place them directly in to the email body. Images appearance is toggled using AMPScript. All images are free from text and culturally universal and diversIFied suited for the European culture.
 
 ### Inside the Email Body
 Content chunks are stored in variables and displayed according to AMPScript rules. The subject line uses text concatenated in a logical, grammatically correct order. 
@@ -73,53 +73,54 @@ Formatting can be inline static or dynamic.
 %%[
     
     VAR 
-        @firstName, @QualIFicationLevel, @qLevel,
+        @firstName, @qualificationLevel, @qLevel,
         @colorQL, @language, @subjectLine,
         @content1, @content2, @content3,
         @content4, @content5, @content6,
         @content7, @content8, @disclaimer,
-        @signature, @contentBlockID, @Rows,
-        @RowsEN, @Row, @RowCount, @dir
+        @signature, @contentBlockID, @rows,
+        @rowsEN, @row, @rowCount, @dir
 
     SET @dir = "" 
 
 /*Get values from the sendable DE*/
-    SET @QualIFicationLevel = Uppercase(AttributeValue("QualIFicationLevel"))
+    SET @qualificationLevel = Uppercase(AttributeValue("qualificationLevel"))
     SET @language = AttributeValue("Language")
-    SET @firstName = ProperCase(AttributeValue("First Name")) SET @RecognitionName = ProperCase(AttributeValue("RecognitionName")) 
+    SET @firstName = ProperCase(AttributeValue("First Name"))
+    SET @recognitionName = ProperCase(AttributeValue"recognitionName")) 
     
-/*SET the dynamic content based on Member's language*/
-    SET @Rows = LookupRows("ContentDE","language",@language) 
-    SET @RowCount = Rowcount(@Rows)
+/*SET the dynamic content based on a language*/
+    SET @rows = Lookuprows("ContentDE","language",@language) 
+    SET @rowCount = rowcount(@rows)
 
-/*For recipients without translations SET English as a default*/    
-    SET @RowsEN = LookupRows("ContentDE","language","British English") 
+/*SET English as a default*/    
+    SET @rowsEN = Lookuprows("ContentDE","language","British English") 
 
 /*Check IF there is a translation for Member's language*/
-    IF @RowCount > 0 THEN
-        SET @Row = Row(@Rows,1)
+    IF @rowCount > 0 THEN
+        SET @row = row(@rows,1)
     ELSE 
-        SET @Row = Row(@RowsEN,1)
+        SET @row = row(@rowsEN,1)
     ENDIF
     
 /*Get dynamic content from DE*/
-    SET @content1 = Field(@Row,"content1") 
-    SET @content2 = Field(@Row,"content2") 
-    SET @signature = Field(@Row,"signature"
+    SET @content1 = Field(@row,"content1") 
+    SET @content2 = Field(@row,"content2") 
+    SET @signature = Field(@row,"signature"
     
-/*Show the content block with a matching image for each QualIFicationLevel, SET the color for the font, assign localized content*/
-    IF @QualIFicationLevel == "Bronze" THEN
+/*Show the content block with a matching image for each qualificationLevel, SET the color for the font, assign localized content*/
+    IF @qualificationLevel == "Bronze" THEN
         SET @contentBlockID = 655024 
         SET @colorQL = "#E08333" 
-        SET @qLevel = Uppercase(Field(@Row,"bronze"))
-    ELSEIF @QualIFicationLevel == "Silver" THEN
+        SET @qLevel = Uppercase(Field(@row,"bronze"))
+    ELSEIF @qualificationLevel == "Silver" THEN
         SET @contentBlockID = 655661 
         SET @colorQL = "#9EACAC" 
-        SET @qLevel = Uppercase(Field(@Row,"silver")) 
-    ELSEIF @QualIFicationLevel == "Gold" THEN 
+        SET @qLevel = Uppercase(Field(@row,"silver")) 
+    ELSEIF @qualificationLevel == "Gold" THEN 
         SET @contentBlockID = 655662 
         SET @colorQL = "#FFC605" 
-        SET @qLevel = Uppercase(Field(@Row,"gold")) 
+        SET @qLevel = Uppercase(Field(@row,"gold")) 
     ENDIF
     
 /*The rule for Hebrew content; the attribute is placed in each content block on the nearest TD*/ 
