@@ -88,11 +88,11 @@ Formatting can be inline static or dynamic.
     SET @recognitionName = ProperCase(AttributeValue"recognitionName")) 
     
 /*SET the dynamic content based on a language*/
-    SET @rows = Lookuprows("ContentDE","language",@language) 
-    SET @rowCount = rowcount(@rows)
+    SET @rows = LookupRows("ContentDE","language",@language) 
+    SET @rowCount = RowCount(@rows)
 
 /*Set the English lang as a default*/    
-    SET @rowsEN = Lookuprows("ContentDE","language","British English") 
+    SET @rowsEN = LookupRows("ContentDE","language","British English") 
 
 /*In case there is no translation, choose English*/
     IF @rowCount > 0 THEN
