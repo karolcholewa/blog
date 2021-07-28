@@ -4,7 +4,7 @@ title: "Dynamic, Multilingual Email"
 categories: AMPScript
 ---
 
-This post is a case study for building a dynamic email using AMPScript.
+This is a case study for building a dynamic email using AMPScript.
 Working with multilingual marketing teams in EMEA makes content localization a signIFicant factor in planning digital campaigns (time and money). In this example I streamline a localization process by using data import and AMPScript functions. Not only do I eliminate time spent on building/fixing/testing language versions but also separate content from formatting in the final email.
 
 ## Business Requirements
