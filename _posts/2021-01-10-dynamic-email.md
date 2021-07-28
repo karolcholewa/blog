@@ -72,7 +72,7 @@ AMPScript in conjunction with HTML/CSS allows to dynamically assign formatting v
 
 ```html
 
-<span style="color: %%=v(@colorQL)=%%">%%=v(@qLevel)=%%</span>
+<span style="color: %%=v(@qLevelColor)=%%">%%=v(@qLevel)=%%</span>
 
 ```
 
@@ -80,10 +80,9 @@ AMPScript in conjunction with HTML/CSS allows to dynamically assign formatting v
 
 ```javascript
 %%[
-    
     VAR 
         @firstName, @qualificationLevel, @qLevel,
-        @colorQL, @language, @subjectLine,
+        @qLevelColor, @language, @subjectLine,
         @content1, @content2, @content3,
         @content4, @content5, @content6,
         @content7, @content8, @disclaimer,
@@ -118,15 +117,15 @@ AMPScript in conjunction with HTML/CSS allows to dynamically assign formatting v
 /*Depending on a reward, show relevant images and change text color*/
     IF @qualificationLevel == "Bronze" THEN
         SET @contentBlockID = 655024 
-        SET @colorQL = "#E08333" 
+        SET @qLevelColor = "#E08333" 
         SET @qLevel = Uppercase(Field(@row,"bronze"))
     ELSEIF @qualificationLevel == "Silver" THEN
         SET @contentBlockID = 655661 
-        SET @colorQL = "#9EACAC" 
+        SET @qLevelColor = "#9EACAC" 
         SET @qLevel = Uppercase(Field(@row,"silver")) 
     ELSEIF @qualificationLevel == "Gold" THEN 
         SET @contentBlockID = 655662 
-        SET @colorQL = "#FFC605" 
+        SET @qLevelColor = "#FFC605" 
         SET @qLevel = Uppercase(Field(@row,"gold")) 
     ENDIF
     
