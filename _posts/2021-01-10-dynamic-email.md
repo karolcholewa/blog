@@ -85,7 +85,7 @@ Formatting can be inline static or dynamic.
     SET @qualificationLevel = Uppercase(AttributeValue("qualificationLevel"))
     SET @language = AttributeValue("Language")
     SET @firstName = ProperCase(AttributeValue("First Name"))
-    SET @recognitionName = ProperCase(AttributeValue"recognitionName")) 
+    SET @recognitionName = ProperCase(AttributeValue("recognitionName")) 
     
 /*SET the dynamic content based on a language*/
     SET @rows = LookupRows("ContentDE","language",@language) 
@@ -103,7 +103,8 @@ Formatting can be inline static or dynamic.
     
     SET @content1 = Field(@row,"content1") 
     SET @content2 = Field(@row,"content2") 
-    SET @signature = Field(@row,"signature"
+    SET @signature = Field(@row,"signature")
+    /* ... add more content ... */
     
 /*Depending on a reward, show relevant images and change text color*/
     IF @qualificationLevel == "Bronze" THEN
