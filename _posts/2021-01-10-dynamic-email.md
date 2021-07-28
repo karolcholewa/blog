@@ -70,8 +70,10 @@ Formatting can be inline static or dynamic.
 ### Dynamic CSS Values
 AMPScript in conjunction with HTML/CSS allows to dynamically assign formatting values, for example for a font color:
 
-```HTML
+```html
+
 <span style="color: %%=v(@colorQL)=%%">%%=v(@qLevel)=%%</span>
+
 ```
 
 ## AMPScript Rules
