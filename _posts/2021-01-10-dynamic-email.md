@@ -92,13 +92,13 @@ Formatting can be inline static or dynamic.
     SET @rowCount = RowCount(@rows)
 
 /*Set the English lang as a default*/    
-    SET @rowsEN = LookupRows("ContentDE","language","British English") 
+    SET @rowEN = LookupRows("ContentDE","language","British English") 
 
 /*In case there is no translation, choose English*/
     IF @rowCount > 0 THEN
         SET @row = row(@rows,1)
     ELSE 
-        SET @row = row(@rowsEN,1)
+        SET @row = row(@rowEN,1)
     ENDIF
     
     SET @content1 = Field(@row,"content1") 
