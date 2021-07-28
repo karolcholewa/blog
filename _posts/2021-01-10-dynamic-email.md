@@ -72,7 +72,14 @@ Formatting can be inline static or dynamic.
 ```javascript
 %%[
     
-    VAR @firstName, @QualIFicationLevel, @qLevel, @colorQL, @language, @subjectLine, @content1, @content2, @content3, @content4, @content5, @content6, @content7, @content8, @disclaimer, @signature, @contentBlockID, @Rows, @RowsEN, @Row, @RowCount, @dir
+    VAR 
+        @firstName, @QualIFicationLevel, @qLevel,
+        @colorQL, @language, @subjectLine,
+        @content1, @content2, @content3,
+        @content4, @content5, @content6,
+        @content7, @content8, @disclaimer,
+        @signature, @contentBlockID, @Rows,
+        @RowsEN, @Row, @RowCount, @dir
 
     SET @dir = "" 
 
