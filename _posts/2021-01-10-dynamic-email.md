@@ -82,8 +82,6 @@ Formatting can be inline static or dynamic.
         @rowsEN, @row, @rowCount, @dir
 
     SET @dir = "" 
-
-/*Get values from the sendable DE*/
     SET @qualificationLevel = Uppercase(AttributeValue("qualificationLevel"))
     SET @language = AttributeValue("Language")
     SET @firstName = ProperCase(AttributeValue("First Name"))
@@ -93,22 +91,21 @@ Formatting can be inline static or dynamic.
     SET @rows = Lookuprows("ContentDE","language",@language) 
     SET @rowCount = rowcount(@rows)
 
-/*SET English as a default*/    
+/*Set the English lang as a default*/    
     SET @rowsEN = Lookuprows("ContentDE","language","British English") 
 
-/*Check IF there is a translation for Member's language*/
+/*In case there is no translation, choose English*/
     IF @rowCount > 0 THEN
         SET @row = row(@rows,1)
     ELSE 
         SET @row = row(@rowsEN,1)
     ENDIF
     
-/*Get dynamic content from DE*/
     SET @content1 = Field(@row,"content1") 
     SET @content2 = Field(@row,"content2") 
     SET @signature = Field(@row,"signature"
     
-/*Show the content block with a matching image for each qualificationLevel, SET the color for the font, assign localized content*/
+/*Depending on a reward, show relevant images and change text color*/
     IF @qualificationLevel == "Bronze" THEN
         SET @contentBlockID = 655024 
         SET @colorQL = "#E08333" 
@@ -123,7 +120,7 @@ Formatting can be inline static or dynamic.
         SET @qLevel = Uppercase(Field(@row,"gold")) 
     ENDIF
     
-/*The rule for Hebrew content; the attribute is placed in each content block on the nearest TD*/ 
+/*For RTL languages*/ 
     IF @language == "Hebrew" THEN
         SET @dir = "rtl" 
     ENDIF 
