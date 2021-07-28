@@ -96,8 +96,10 @@ Formatting can be inline static or dynamic.
     ENDIF
     
 /*Get dynamic content from DE*/
-    SET @content1 = Field(@Row,"content1") /*Congratulations*/ SET @content2 = Field(@Row,"content2") /*content2*/       SET @signature = Field(@Row,"signature") 
-
+    SET @content1 = Field(@Row,"content1") 
+    SET @content2 = Field(@Row,"content2") 
+    SET @signature = Field(@Row,"signature"
+    
 /*Show the content block with a matching image for each QualIFicationLevel, SET the color for the font, assign localized content*/
     IF @QualIFicationLevel == "Bronze" THEN
         SET @contentBlockID = 655024 
