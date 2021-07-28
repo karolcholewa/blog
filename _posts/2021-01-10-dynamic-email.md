@@ -67,6 +67,13 @@ Formatting can be inline static or dynamic.
 
 ![Dynamic Email snapshot](/images/dynamicEmail.png)
 
+### Dynamic CSS Values
+AMPScript in conjunction with HTML/CSS allows to dynamically assign formatting values, for example for a font color:
+
+```HTML
+<span style="color: %%=v(@colorQL)=%%">%%=v(@qLevel)=%%</span>
+```
+
 ## AMPScript Rules
 
 ```javascript
