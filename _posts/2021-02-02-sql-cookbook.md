@@ -38,8 +38,8 @@ Just another use for the CASE statement.
 ```sql
 SELECT
     CASE
-        WHEN LinkName LIKE 'https://www.domain.com/articles/%' THEN 'Link to an article'
-        WHEN LinkName LIKE 'https://www.shop.domain.com/%' THEN 'Link to e-commerce'
+        WHEN LinkName LIKE 'https://domain.com/articles/%' THEN 'Link to an article'
+        WHEN LinkName LIKE 'https://shop.domain.com/%' THEN 'Link to e-commerce'
     END AS LinkAlias
 FROM _Click
 WHERE JobID = '12345'
