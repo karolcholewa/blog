@@ -6,19 +6,19 @@ categories: SQL
 
 This is a collection of quick recipies for SQL reports or data digging. This post is incremental not to create short posts for quick SQL queries and tips.
 
-## PATINDEX and LEFT
+## PatIndex() and Left()
 The PATINDEX function returns a position of a pattern in a string. However, in conjunction with other string functions, such as LEFT it allows you to further extract string patters from a whole. 
 
 For example, a client ID and client email linked by a dash form a subscriberkey like so: 1234567890-client@example.com. To retrieve a client ID from the SubscriberKey do like so:
 
 ```sql
 SELECT
-    LEFT(SubscriberKey, PATINDEX('%-%', SubscriberKey) -1) AS ClientID
+    Left(SubscriberKey, PatIndex('%-%', SubscriberKey) -1) AS ClientID
 FROM
     _Subscribers
 ```
 
-## CONCAT
+## Concat()
 To revert the scenario with PATINDEX here is how to combine both ClientID and ClientEmail in order to generate the proper SubscriberKey and exclude any misused SubscriberKeys from a query:
 
 ```sql
@@ -66,4 +66,21 @@ WHERE s.SubscriberKey NOT IN
         FROM _Open o
         WHERE o.EventDate >= DateAdd(day, -90, GetDate())     
         )
+```
+
+## Convert()
+Profile attributes are stored by the platform as a string type, irrespective of the data types assigned to them. The platform casts them to their assigned type. But what if the assigned type for attributes stored in All Subscribers or a data extension is misused?
+
+For example you want to build a segment for people between age 18 to 40. Date of birth stored in the DOB attribute in a data extension is in text. Here is how to covert it:
+
+```sql
+SELECT
+    FirstName
+    ,LastName
+    ,DoB
+FROM MyDataExtension
+WHERE
+    (Year(GetUTCDate()) - Year(Convert(date, Convert(varchar, DoB))) < 41 
+    AND
+     Year(GetUTCDate()) - Year(Convert(date, Convert(varchar, DoB))) > 17)
 ```
