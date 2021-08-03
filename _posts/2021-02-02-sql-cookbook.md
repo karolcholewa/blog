@@ -7,7 +7,7 @@ categories: SQL
 This is a collection of quick recipies for SQL reports or data digging. This post is incremental not to create short posts for quick SQL queries and tips.
 
 ## PatIndex() and Left()
-The PATINDEX function returns a position of a pattern in a string. However, in conjunction with other string functions, such as LEFT it allows you to further extract string patters from a whole. 
+The PatIndex() function returns a position of a pattern in a string. However, in conjunction with other string functions, such as Left() it allows you to further extract string patters from a whole. 
 
 For example, a client ID and client email linked by a dash form a subscriberkey like so: 1234567890-client@example.com. To retrieve a client ID from the SubscriberKey do like so:
 
@@ -19,7 +19,7 @@ FROM
 ```
 
 ## Concat()
-To revert the scenario with PATINDEX here is how to combine both ClientID and ClientEmail in order to generate the proper SubscriberKey and exclude any misused SubscriberKeys from a query:
+To revert the scenario with PatIndex() here is how to combine both ClientID and ClientEmail in order to generate the proper SubscriberKey and exclude any misused SubscriberKeys from a query:
 
 ```sql
 SELECT
@@ -27,7 +27,7 @@ SELECT
 FROM
     /*TABLE*/
 WHERE
-    SubscriberKey = CONCAT(ClientID, '-', EmailAddress)
+    SubscriberKey = Concat(ClientID, '-', EmailAddress)
 ```
 
 ## CASE
