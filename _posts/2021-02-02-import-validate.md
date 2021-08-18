@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Import and Validate Data"
-categories: SQL
+categories: [SQL, SFMC]
 ---
 
-This is about a basic, manual data import from a CVS file to a data extension. Manual file import is prone to a human error which may further result in a poor data quality or mismanagement of a customer consent. That would mean a validation of GDPR.
+This is about a basic, manual data import from a CVS file to a data extension. Manual file import is prone to human error which may further result in a poor data quality or mismanagement of a customer consent. That could violate GDPR/CAN-SPAM principles.
 
-## Loyalty Program - a Case for Data Import
-The NTO company offers a loyalty program for its customers. Every month program participants receive a personalized, summary email. Because the NTO has not integrated their systems yet, data for personalized marketing campaigns arrives in as static Excel files. An email marketer imports data from a file to a data extension and uses personalization strings to deliver specific information to each Subscriber.
+## Loyalty Program &ndash; a Case for Data Import
+The North Trail NTO company offers a loyalty program for its customers. Every month program participants receive a personalized, summary email. Because the NTO has not integrated their systems yet, data for personalized marketing campaigns arrives in as static Excel files. An email marketer imports data from a file to a data extension and uses personalization strings to deliver specific information to each Subscriber.
 
 ## Prepare Data Extensions
 This type of a campaign targets existing Subscribers therefore to keep SFMC data reliable and accurate, validate each imported record against the Subscribers database and attributes. You cannot carelessly import customers and emails to a sendable data extension and send a personalized email to each and everyone.
