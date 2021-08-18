@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SQL CookBook Recipies"
-categories: SQL
+categories: [SQL, SFMC]
 ---
 
 This is a collection of quick recipies for SQL reports or data digging. This post is incremental not to create short posts for quick SQL queries and tips.
