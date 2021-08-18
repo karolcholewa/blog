@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Import and Validated Data"
+title: "Import and Validate Data"
 categories: SQL
 ---
 
