@@ -4,7 +4,7 @@ title: "SQL CookBook Recipies"
 categories: [SQL, SFMC]
 ---
 
-This is a collection of quick recipies for SQL reports or data digging. This post is incremental not to create short posts for quick SQL queries and tips.
+This is a collection of quick recipies for SQL reports or data digging. This post is incremental not to create short posts for quick SQL queries and tips...
 
 ## PatIndex() and Left()
 The PatIndex() function returns a position of a pattern in a string. However, in conjunction with other string functions, such as Left() it allows you to further extract string patters from a whole. 
