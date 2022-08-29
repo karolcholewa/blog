@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello! 👋 My name is Karol (Carlito) and this is my **tech marketer's weblog** where I put down short notes, recipies, and snippets worth reusing without remembering each by heart. I work in a technology team supporting internal business partners that is: Digital Marketing Teams, Creative and Communications Teams, and Customer Service Teams in the Europe and Africa region. Around 2018 *I was picked by the email marketing profession* to build and automate emails using. This is how I became a [Trailblazer](https://trailblazer.me/id/kcholewa) and a curious and passionate power user of **Salesforce Marketing Cloud**.
+Hello! 👋 My name is Karol (Carlito) and this is my **tech marketer's weblog** where I put down short notes, recipies, and snippets worth reusing without remembering each by heart. I work in a technology team supporting internal business partners that is: Digital Marketing Teams, Creative and Communications Teams, and Customer Service Teams in the Europe and Africa region. Around 2018 *I was picked by the email marketing profession* to build and automate emails. This is how I became a [Trailblazer](https://trailblazer.me/id/kcholewa) and a curious and passionate power user of **Salesforce Marketing Cloud**.
 
 
 ## ★ Purpose 
