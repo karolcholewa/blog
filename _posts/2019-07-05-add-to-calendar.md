@@ -120,4 +120,5 @@ set @domain = Domain(emailaddr)
 *   [ICS calendar appointment creator (Outlook, iCal Apple, other)](https://apps.marudot.com/ical/)
 *   [Yahoo Calendar parameters](http://chris.photobooks.com/tests/calendar/Notes.html)
 *   [A huge, comprehensive post from Litmus](https://www.litmus.com/blog/how-to-create-an-add-to-calendar-link-for-your-emails/)
+*   [RFC 5545](https://www.rfc-editor.org/rfc/rfc5545)
 
