@@ -22,3 +22,5 @@ Create a basic SQL Query activity, select a source *MyDummyDE* that contains a s
 SELECT *
 FROM [MyDummyDE]
 ```
+## Performance
+This is a very fast and reliable method. It took about five minutes to overwrite over 30 millions of records with a single record using the above workaround.
