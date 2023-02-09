@@ -21,15 +21,15 @@ SET @value3 = AttributeValue("value3")
 SET @value4 = AttributeValue("value4")
 SET @value5 = AttributeValue("value5")
 SET @i = 1
-SET @bgColor1 = "#ffffff" /*white for even rows*/
-SET @bgColor2 = "#d3d3d3" /*grey for odd rows*/
+SET @bgColor1 = "#d3d3d3" /*grey for odd rows*/
+SET @bgColor2 = "#ffffff" /*white for even rows*/
 
 <table>
 %%[ IF NOT Empty(@value1) THEN
      SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
 ]%%
   <tr>
-    <td bgcolor="%%=V(@bgColor)=%%">Label 1</td>
+    <td bgcolor="%%=V(@bgColor)=%%">Row number %%=V(@i)=%%</td>
     <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value1)=%%</td>
    </tr>
 %%[ SET @i = Add(@i, 1) ENDIF ]%%
@@ -38,7 +38,7 @@ SET @bgColor2 = "#d3d3d3" /*grey for odd rows*/
      SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
 ]%%
   <tr>
-    <td bgcolor="%%=V(@bgColor)=%%">Label 2</td>
+    <td bgcolor="%%=V(@bgColor)=%%">Row number %%=V(@i)=%%</td>
     <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value2)=%%</td>
    </tr>
 %%[ SET @i = Add(@i, 1) ENDIF ]%%
@@ -47,7 +47,7 @@ SET @bgColor2 = "#d3d3d3" /*grey for odd rows*/
      SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
 ]%%
   <tr>
-    <td bgcolor="%%=V(@bgColor)=%%">Label 3</td>
+    <td bgcolor="%%=V(@bgColor)=%%">Row number %%=V(@i)=%%</td>
     <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value3)=%%</td>
    </tr>
 %%[ SET @i = Add(@i, 1) ENDIF ]%%
@@ -56,7 +56,7 @@ SET @bgColor2 = "#d3d3d3" /*grey for odd rows*/
      SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
 ]%%
   <tr>
-    <td bgcolor="%%=V(@bgColor)=%%">Label 4</td>
+    <td bgcolor="%%=V(@bgColor)=%%">Row number %%=V(@i)=%%</td>
     <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value4)=%%</td>
    </tr>
 %%[ SET @i = Add(@i, 1) ENDIF ]%%
@@ -65,7 +65,7 @@ SET @bgColor2 = "#d3d3d3" /*grey for odd rows*/
      SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
 ]%%
   <tr>
-    <td bgcolor="%%=V(@bgColor)=%%">Label 5</td>
+    <td bgcolor="%%=V(@bgColor)=%%">Row number %%=V(@i)=%%</td>
     <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value5)=%%</td>
    </tr>
 %%[ SET @i = Add(@i, 1) ENDIF ]%%
@@ -75,3 +75,4 @@ SET @bgColor2 = "#d3d3d3" /*grey for odd rows*/
 ## Resources:
 
 *   [AMPscript Guide - Mod](https://ampscript.guide/mod/)
+*   [What is X modulo Y](https://divisible.info/Modulo/What-is-1-mod-2.html)
