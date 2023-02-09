@@ -25,25 +25,51 @@ SET @bgColor1 = "#ffffff" /*white for even rows*/
 SET @bgColor2 = "#d3d3d3" /*grey for odd rows*/
 
 <table>
-  %%[ IF NOT Empty(@value1) THEN SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2) ]%%
+%%[ IF NOT Empty(@value1) THEN
+     SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
+]%%
   <tr>
     <td bgcolor="%%=V(@bgColor)=%%">Label 1</td>
     <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value1)=%%</td>
    </tr>
-   %%[ SET @i = Add(@i, 1) ENDIF ]%%
-   %%[ IF NOT Empty(@value1) THEN SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2) ]%%
+%%[ SET @i = Add(@i, 1) ENDIF ]%%
+
+%%[ IF NOT Empty(@value2) THEN
+     SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
+]%%
   <tr>
-    <td bgcolor="%%=V(@bgColor)=%%">Label 1</td>
-    <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value1)=%%</td>
+    <td bgcolor="%%=V(@bgColor)=%%">Label 2</td>
+    <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value2)=%%</td>
    </tr>
-   %%[ SET @i = Add(@i, 1) ENDIF ]%%
-   %%[ IF NOT Empty(@value1) THEN SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2) ]%%
+%%[ SET @i = Add(@i, 1) ENDIF ]%%
+
+%%[ IF NOT Empty(@value3) THEN
+     SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
+]%%
   <tr>
-    <td bgcolor="%%=V(@bgColor)=%%">Label 1</td>
-    <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value1)=%%</td>
+    <td bgcolor="%%=V(@bgColor)=%%">Label 3</td>
+    <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value3)=%%</td>
    </tr>
-   %%[ SET @i = Add(@i, 1) ENDIF ]%%
- </table>
+%%[ SET @i = Add(@i, 1) ENDIF ]%%
+
+%%[ IF NOT Empty(@value4) THEN
+     SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
+]%%
+  <tr>
+    <td bgcolor="%%=V(@bgColor)=%%">Label 4</td>
+    <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value4)=%%</td>
+   </tr>
+%%[ SET @i = Add(@i, 1) ENDIF ]%%
+
+%%[ IF NOT Empty(@value5) THEN
+     SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
+]%%
+  <tr>
+    <td bgcolor="%%=V(@bgColor)=%%">Label 5</td>
+    <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value5)=%%</td>
+   </tr>
+%%[ SET @i = Add(@i, 1) ENDIF ]%%
+</table>
 ```
 
 ## Resources:
