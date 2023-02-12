@@ -12,10 +12,8 @@ Let a sample table display text delivered as delimited string from a 3rd party s
 ```javascript
 %%[
 SET @sampleList = "What is Lorem Ipsum? || Where does it come from? || Why do we use it? || Where can I get some?"
-
 SET @rows = BuildRowsetFromString(@sampleList,"||")
 SET @rowCount = rowCount(@rows)
-
 IF @rowCount > 0 THEN
 ]%%
 
@@ -35,6 +33,7 @@ IF @rowCount > 0 THEN
 ]%%
   <tr><td bgcolor="%%=V(@color)=%%">%%=V(@tableCell)=%%</td></tr>
 %%[ NEXT @i ]%%
+</table>
 %%[ ENDIF ]%%
 ```
 
