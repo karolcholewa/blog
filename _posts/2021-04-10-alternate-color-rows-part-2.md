@@ -34,6 +34,7 @@ IF @rowCount > 0 THEN
   <tr><td bgcolor="%%=V(@color)=%%">%%=V(@tableCell)=%%</td></tr>
 %%[ NEXT @i ]%%
 </table>
+<!--=========End: Table==========-->
 %%[ ENDIF ]%%
 ```
 
