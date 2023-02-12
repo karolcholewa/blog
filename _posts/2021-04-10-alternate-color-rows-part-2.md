@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Table Rows with Alternate Color - Part 1"
+title: "Table Rows with Alternate Color - Part 2"
 categories: [AMPscript]
 ---
 
