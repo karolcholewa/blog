@@ -4,75 +4,40 @@ title: "Table Rows with Alternate Color - Part 2"
 categories: [AMPscript]
 ---
 
-For a "zebra-striped" effect on table rows (a table to present content not a table to control an email layout), you would use the CSS **:nth-child()** selector. But a quick check with a reference tool [Can I Email](https://www.caniemail.com/features/css-pseudo-class-nth-child/) diminish doubts that any 'fancy' selector is still scarcely supported by email clients.
+This is a second part or another case for using AMPScript to dynamically set a background color to table rows. In this example, I use a process loop to dynamically build a table and then apply a background color to even and odd rows.
 
-
-## Static vs Dynamic Table
-Static tables come with a known number of rows and columns and are populated with static text for all. Dynamic, personalized tables may contain different amount of information thus a size of a table to display the content is not known. 
-For a static table you can apply background colors to all odd and even rows. But for dynamicly built tables you need AMPScript.
-
-## Even-Odd with AMPscript Part 1
-I know at least two cases for building a table using AMPScript. Therefore, it is the part one. Let a sample table display values from a data extension columns. Each recipient receives an email that contains a personalized table. A number of rows varies depending on the number of columns with values. Use AMPScript to proactively check whether content is available to create a row and apply a background color. To determine whether it is an even or an odd row, use the modulo operation. 
+## Building a Table Dynamically
+Let a sample table display text delivered as delimited string from a 3rd party service (for example SOAP message with XML data). Then the **BuildRowsetFromString** function splits the string and returns a rowset. The number of resulting rows may vary for each message therefore I use the **FOR** statement to iterate through each row from the rowset and build the dynamic, personalized table.
 
 ```javascript
-SET @value1 = AttributeValue("value1")
-SET @value2 = AttributeValue("value2")
-SET @value3 = AttributeValue("value3")
-SET @value4 = AttributeValue("value4")
-SET @value5 = AttributeValue("value5")
-SET @i = 1
-SET @bgColor1 = "#d3d3d3" /*grey for odd rows*/
-SET @bgColor2 = "#ffffff" /*white for even rows*/
+%%[
+SET @sampleList = "What is Lorem Ipsum? || Where does it come from? || Why do we use it? || Where can I get some?"
 
+SET @rows = BuildRowsetFromString(@sampleList,"||")
+SET @rowCount = rowCount(@rows)
+
+IF @rowCount > 0 THEN
+]%%
+
+<!--=========Start: Table==========-->
 <table>
-%%[ IF NOT Empty(@value1) THEN
-     SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
+%%[
+  FOR @i = 1 to @rowCount DO
+  IF @indicator == "odd" THEN
+  SET @color = "#d3d3d3"
+  SET @indicator = "even"
+  ELSE
+  SET @color = "#ffffff"
+  SET @indicator = "odd"
+  ENDIF
+  SET @tableRow = Row(@rows, @i)
+  SET @tableCell = Field(@tableRow, 1)
 ]%%
-  <tr>
-    <td bgcolor="%%=V(@bgColor)=%%">Row number %%=V(@i)=%%</td>
-    <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value1)=%%</td>
-   </tr>
-%%[ SET @i = Add(@i, 1) ENDIF ]%%
-
-%%[ IF NOT Empty(@value2) THEN
-     SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
-]%%
-  <tr>
-    <td bgcolor="%%=V(@bgColor)=%%">Row number %%=V(@i)=%%</td>
-    <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value2)=%%</td>
-   </tr>
-%%[ SET @i = Add(@i, 1) ENDIF ]%%
-
-%%[ IF NOT Empty(@value3) THEN
-     SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
-]%%
-  <tr>
-    <td bgcolor="%%=V(@bgColor)=%%">Row number %%=V(@i)=%%</td>
-    <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value3)=%%</td>
-   </tr>
-%%[ SET @i = Add(@i, 1) ENDIF ]%%
-
-%%[ IF NOT Empty(@value4) THEN
-     SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
-]%%
-  <tr>
-    <td bgcolor="%%=V(@bgColor)=%%">Row number %%=V(@i)=%%</td>
-    <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value4)=%%</td>
-   </tr>
-%%[ SET @i = Add(@i, 1) ENDIF ]%%
-
-%%[ IF NOT Empty(@value5) THEN
-     SET @bgColor = Iif(0==Mod(@i, 2), @bgColor1, bgColor2)
-]%%
-  <tr>
-    <td bgcolor="%%=V(@bgColor)=%%">Row number %%=V(@i)=%%</td>
-    <td bgcolor="%%=V(@bgColor)=%%">%%=V(@Value5)=%%</td>
-   </tr>
-%%[ SET @i = Add(@i, 1) ENDIF ]%%
-</table>
+  <tr><td bgcolor="%%=V(@color)=%%">%%=V(@tableCell)=%%</td></tr>
+%%[ NEXT @i ]%%
+%%[ ENDIF ]%%
 ```
 
 ## Resources:
 
-*   [AMPscript Guide - Mod](https://ampscript.guide/mod/)
-*   [What is X modulo Y](https://divisible.info/Modulo/What-is-1-mod-2.html)
+*   [AMPscript Guide - BuildRowsetFromString](https://ampscript.guide/buildrowsetfromstring/)

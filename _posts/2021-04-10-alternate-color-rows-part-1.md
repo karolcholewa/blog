@@ -12,7 +12,7 @@ Static tables come with a known number of rows and columns and are populated wit
 For a static table you can apply background colors to all odd and even rows. But for dynamicly built tables you need AMPScript.
 
 ## Even-Odd with AMPscript Part 1
-I know at least two cases for building a table using AMPScript. Therefore, it is the part one. Let a sample table display values from a data extension columns. Each recipient receives an email that contains a personalized table. A number of rows varies depending on the number of columns with values. Use AMPScript to proactively check whether content is available to create a row and apply a background color. To determine whether it is an even or an odd row, use the modulo operation. 
+I know at least two cases for building a table using AMPScript. Therefore, it is the part one. Let a sample table display values from a data extension columns. Each recipient receives an email that contains a personalized table. A number of rows varies depending on the number of columns with values. Use AMPScript to proactively check, using the **Empty()** function, whether content is available to create a row and apply a background color. To determine whether it is an even or an odd row, use the modulo operation. 
 
 ```javascript
 SET @value1 = AttributeValue("value1")
