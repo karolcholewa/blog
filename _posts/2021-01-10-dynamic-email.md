@@ -1,6 +1,10 @@
 ---
 layout: post
+<<<<<<< HEAD
 title: "Dynamic, Multilingual Email using AMPscript"
+=======
+title: "Dynamic, Multilingual Email"
+>>>>>>> 53c8ba67c7670ff5f8238c03f852cb2c885fe377
 categories: AMPscript
 ---
 
