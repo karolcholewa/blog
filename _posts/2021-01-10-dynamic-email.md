@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dynamic, Multilingual Email"
-categories: AMPScript
+categories: AMPscript
 ---
 
 This is a case study for building a dynamic email using AMPScript.
