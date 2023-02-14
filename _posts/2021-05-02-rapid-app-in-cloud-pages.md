@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Table Rows with Alternate Color - Part 2"
-categories: [AMPscript]
+title: "Rapid App in Cloud Pages"
+categories: [AMPscript, HTML, Web]
 ---
 
 This is a second part or another case for using AMPScript to dynamically set a background color to table rows. In this example, I use a process loop to dynamically build a table and then apply a background color to even and odd rows.

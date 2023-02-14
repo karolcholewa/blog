@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Table Rows with Alternate Color - Part 1"
-categories: [AMPscript]
+categories: AMPscript
 ---
 
 For a "zebra-striped" effect on table rows (a table to present content not a table to control an email layout), you would use the CSS **:nth-child()** selector. But a quick check with a reference tool [Can I Email](https://www.caniemail.com/features/css-pseudo-class-nth-child/) diminish doubts that any 'fancy' selector is still scarcely supported by email clients.
