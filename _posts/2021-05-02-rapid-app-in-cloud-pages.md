@@ -4,40 +4,19 @@ title: "Rapid App in Cloud Pages"
 categories: [AMPscript, HTML, Web]
 ---
 
-This is a second part or another case for using AMPScript to dynamically set a background color to table rows. In this example, I use a process loop to dynamically build a table and then apply a background color to even and odd rows.
+A sample project that uses data from a data extention, CloudPages as a hosting server, a light-weight HTML framework for a quick front-end prototype, and AMPscript that makes it work as a useful and professional application.
 
-## Building a Table Dynamically
-Let a sample table display text delivered as delimited string from a 3rd party service (for example SOAP message with XML data). Then the **BuildRowsetFromString** function splits the string and returns a rowset. The number of resulting rows may vary for each message therefore I use the **FOR** statement to iterate through each row from the rowset and build the dynamic, personalized table.
+## Lorem Ipsum
+Lorem ipsum ...
+
 
 ```javascript
-%%[
-SET @sampleList = "Text item 1||Text item 2||Text item 3||Text item 4"
-SET @rows = BuildRowsetFromString(@sampleList,"||")
-SET @rowCount = rowCount(@rows)
-IF @rowCount > 0 THEN
-]%%
-
-<!--=========Start: Table==========-->
-<table>
-%%[
-  FOR @i = 1 to @rowCount DO
-  IF @indicator == "odd" THEN
-  SET @color = "#d3d3d3"
-  SET @indicator = "even"
-  ELSE
-  SET @color = "#ffffff"
-  SET @indicator = "odd"
-  ENDIF
-  SET @tableRow = Row(@rows, @i)
-  SET @tableCell = Field(@tableRow, 1)
-]%%
-  <tr><td bgcolor="%%=V(@color)=%%">%%=V(@tableCell)=%%</td></tr>
-%%[ NEXT @i ]%%
-</table>
-<!--=========End: Table==========-->
-%%[ ENDIF ]%%
+Sample code
 ```
 
 ## Resources:
 
-*   [AMPscript Guide - BuildRowsetFromString](https://ampscript.guide/buildrowsetfromstring/)
+*   [Mark Hughes Day 2019 Project Website](/mhday2019)
+*   [Cloud Pages are Public](/cloudpages-are-public)
+*   [Zurb Foundation Website](https://get.foundation/)
+*   [Skeleton Website (deprecated)](http://getskeleton.com/)
