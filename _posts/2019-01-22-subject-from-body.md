@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Create Subject Line Using Body Content"
-categories: AMPScript
+categories: AMPscript
 ---
 
 

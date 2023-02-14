@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lookup Function"
-categories: AMPScript
+categories: AMPscript
 ---
 
 

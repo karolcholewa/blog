@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Imiona w Wołaczu"
-categories: [EmailMarketing, AMPScript]
+categories: [EmailMarketing, AMPscript]
 ---
 
 

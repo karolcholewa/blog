@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Conditional Content Based on Subscriber Attributes"
-categories: AMPScript
+categories: AMPscript
 ---
 
 

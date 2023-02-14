@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Baby Shark AMPScript Challenge"
-categories: AMPScript
+categories: AMPscript
 ---
 This is my submitted solution for the Baby Shark AMPScript challenge at How-to-SFMC.
 The total number of characters ended up at 361 (no spaces).

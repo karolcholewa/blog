@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Combine Multiple Worksheets Into One"
-categories: [MSExcel]
+categories: MSExcel
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Display Subscribers Data Inline With The Name"
-categories: AMPScript
+categories: AMPscript
 ---
 
 Marketing Team asked for a bit of dynamic content in a new campaign. Team wanted to know if it was possible to display loyalty points accumulated by a specific Subscriber. The team provided Data Extension with relevant data in columns such as *First_Name, Last_Name, Email, ID, PPV*.

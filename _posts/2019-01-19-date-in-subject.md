@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Insert Date to the Subject Line"
-categories: AMPScript
+categories: AMPscript
 ---
 
 
