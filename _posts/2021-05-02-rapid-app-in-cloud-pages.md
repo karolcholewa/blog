@@ -4,7 +4,7 @@ title: "Rapid App in Cloud Pages"
 categories: [AMPscript, HTML, Web]
 ---
 
-A sample project that uses data from a data extention, CloudPages as a hosting server, a light-weight HTML framework for a quick front-end prototype, and AMPscript that makes it work as a useful and professional application.
+A sample project that uses data from a data extension, CloudPages as a hosting solution, a light-weight HTML framework for rapid prototyping, and AMPscript that integrates front-end with the SFMC backend.
 
 ## Lorem Ipsum
 Lorem ipsum ...
