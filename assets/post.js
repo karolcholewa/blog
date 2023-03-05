@@ -1,4 +1,3 @@
- // assets/js/post.js
  var codeBlocks = document.querySelectorAll('pre.highlight');
       
  codeBlocks.forEach(function (codeBlock) {
