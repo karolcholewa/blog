@@ -8,10 +8,7 @@ This is a small but significant enhancement to my blog posts. I've added a butto
 
 ## Script for Adding a Button to All Posts
 This snippet creates a button inside the code block and uses the Navigator.Clipboard API to copy contents of the code block. I've created a new file at assets\post.js and referenced it in the bottom of the _layouts\post.html like so: 
-
-```javascript
-<script src="{{ site.baseurl }}/assets/post.js"></script>
-```
+<script> src="{{ site.baseurl }}/assets/post.js"></script>
 
 ```javascript
 var codeBlocks = document.querySelectorAll('pre.highlight');
