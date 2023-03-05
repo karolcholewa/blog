@@ -84,3 +84,26 @@ code {
 .highlight .vg { color: #268BD2 } /* Name.Variable.Global */
 .highlight .vi { color: #268BD2 } /* Name.Variable.Instance */
 .highlight .il { color: #2AA198 } /* Literal.Number.Integer.Long */
+
+// copy code to clipboard
+.copy {
+  color: $white;
+  position: absolute;
+  right: 1.2rem;
+  top: 1.2rem;
+  opacity: 0;
+
+  &:active,
+  &:focus,
+  &:hover {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+  }
+}
+
+&:active .copy,
+&:focus .copy,
+&:hover .copy {
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+}
