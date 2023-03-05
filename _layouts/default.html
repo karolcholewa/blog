@@ -12,8 +12,7 @@
     <meta name="theme-color" content="#000000">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
     {% include analytics_head.html %}
-    <!-- Start: Copy code to clipboard -->
-
+    
   </head>
 
   <body>
@@ -56,32 +55,6 @@
     </div>
 
     {% include analytics.html %}
-    <script>
-      // assets/js/post.js
-      var codeBlocks = document.querySelectorAll('pre.highlight');
-      
-      codeBlocks.forEach(function (codeBlock) {
-        var copyButton = document.createElement('button');
-        copyButton.className = 'copy';
-        copyButton.type = 'button';
-        copyButton.ariaLabel = 'Copy code to clipboard';
-        copyButton.innerText = 'Copy';
-      
-        codeBlock.append(copyButton);
-      
-        copyButton.addEventListener('click', function () {
-          var code = codeBlock.querySelector('code').innerText.trim();
-          window.navigator.clipboard.writeText(code);
-      
-          copyButton.innerText = 'Copied';
-          var fourSeconds = 4000;
-      
-          setTimeout(function () {
-            copyButton.innerText = 'Copy';
-          }, fourSeconds);
-        });
-      });
-      </script>
-      <!-- End: Copy code to clipboard -->
+    <script src="{{ site.baseurl }}/assets/post.js"></script>
   </body>
 </html>

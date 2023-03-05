@@ -86,24 +86,10 @@ code {
 .highlight .il { color: #2AA198 } /* Literal.Number.Integer.Long */
 
 // copy code to clipboard
-.copy {
-  color: $white;
-  position: absolute;
-  right: 1.2rem;
-  top: 1.2rem;
-  opacity: 0;
+button.copy {
+  background: #282a36;
+  color: #f8f8f2;
+  padding: 0.5em;
+  border: 1px solid #f8f8f2;
 
-  &:active,
-  &:focus,
-  &:hover {
-    background: rgba(0, 0, 0, 0.7);
-    opacity: 1;
-  }
-}
-
-&:active .copy,
-&:focus .copy,
-&:hover .copy {
-  background: rgba(0, 0, 0, 0.7);
-  opacity: 1;
 }
