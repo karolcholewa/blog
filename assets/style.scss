@@ -1137,16 +1137,16 @@ Modules - reusable parts of our design
 
 /* _sass/_post.css */
 pre.highlight > button {
-  opacity: 0;
+    background: #282a36;
+    padding: 0.5em;
+    min-width: 5em;
+    border: 1px solid #f8f8f2;
+    color: #f8f8f2;
+    margin-top: 1em;
 }
 
 pre.highlight:hover > button {
-  opacity: 1;
-}
-
-pre.highlight > button:active,
-pre.highlight > button:focus {
-  opacity: 1;
+  
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
