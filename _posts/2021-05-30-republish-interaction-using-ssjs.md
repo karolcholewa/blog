@@ -28,7 +28,7 @@ Create a CloudPage that executes a script to: pause, publish, and start a select
 ```
 
 ## Execute the Script from POSTman
-POSTman is a great test environment for triggering email. Therefore, it is convinient to republish triggered send interactions directly from the POSTman. Create a GET request using the CloudPage URL and add the interaction's CustomerKey as the *?trigger* parameter value;for example: https://mycloudpagewithssjsscript.com?trigger=CustomerKey
+POSTman is a great test environment for triggering email. Therefore, it is convinient to republish triggered send interactions directly from the POSTman. Create a GET request using the CloudPage URL and add the interaction's CustomerKey as the *?trigger* parameter value;for example: *https://mycloudpagewithssjsscript.com?trigger=CustomerKey*
 
 
 ## Resources:
