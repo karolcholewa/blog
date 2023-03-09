@@ -4,7 +4,7 @@ title: "Delete Contacts Automatically Using SQL and SSJS"
 categories: [SQL, SSJS, SFMC]
 ---
 
-Deleting Contacts can be a stresful and responsible process. It requires knowledge, prudence, and very often a supervision and approvals of authorities. Here is a shortcut to automated task of deleting unwanted, spare Contacts created from triggered sends.
+Deleting Contacts can be a stresful and responsible process. It requires knowledge, prudence, and very often a supervision and approvals of authorities. Here is a shortcut to automated task of deleting unwanted, spare Contacts created from **triggered sends**.
 
 ## Triggered Send Managed List
 Triggered emails should either use a publication list (for example All Susbscribers) or a **Triggered Send Data Extension** to manage recipients. Failing to select either one results in storing subscribers related data payload in a hidden, system-defined list called **Triggered Send Managed List**. You should create and select TSDE for each triggered send interaction. However, when an email is sent to a Subscriber who does not exist in All Subscribers, they are appended to All Subscribers after the send. To find such newly appended Subscribers from triggered sends use the following query:
