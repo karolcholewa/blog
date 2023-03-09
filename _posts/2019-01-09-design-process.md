@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Desing Process"
+title: "Design Process"
 categories: Career
 ---
 Have an idea, write it down, and move to the next one. **Brief**, **Research** and insights (iterative), **Design** (iterative), Solution (iterative), Production.
