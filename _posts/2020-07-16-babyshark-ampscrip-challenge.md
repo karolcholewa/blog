@@ -3,8 +3,7 @@ layout: post
 title: "Baby Shark AMPScript Challenge"
 categories: AMPscript
 ---
-This is my submitted solution for the Baby Shark AMPScript challenge at How-to-SFMC.
-The total number of characters ended up at 361 (no spaces).
+This is an AMPScript snippet I submitted for the **Baby Shark AMPScript Challenge** organized by the How-to-SFMC Community. The total number of characters ended up at 361 (no spaces).
 
 
 ```javascript

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rapid Prototype App in a CloudPage"
+title: "Prototype an App in CloudPages"
 categories: [AMPscript, HTML, Web]
 ---
 
