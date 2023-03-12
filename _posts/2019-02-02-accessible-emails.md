@@ -55,8 +55,7 @@ Here is a brief list of recommended accessibility rules for emails. The subject 
 
 ## Resources
 
-
-
-*   Mark Robin’s presentation: [https://docs.google.com/presentation/d/1GvnKKKIFvjyzly5mvr_LLMKMgD4XNWgj1dlbIpSMkfE/edit?usp=sharing](https://docs.google.com/presentation/d/1GvnKKKIFvjyzly5mvr_LLMKMgD4XNWgj1dlbIpSMkfE/edit?usp=sharing)
+*  [Good Email Code by Mark Robins](https://www.goodemailcode.com/)
+*   [Mark Robin’s presentation](https://docs.google.com/presentation/d/1GvnKKKIFvjyzly5mvr_LLMKMgD4XNWgj1dlbIpSMkfE/edit?usp=sharing)
 *   [https://litmus.com/blog/ultimate-guide-accessible-emails](https://litmus.com/blog/ultimate-guide-accessible-emails)
 *   [http://www.emaildesignreview.com/email-industry-insight/accessibility-in-digital-marketing-4148/](http://www.emaildesignreview.com/email-industry-insight/accessibility-in-digital-marketing-4148/)
