@@ -85,5 +85,5 @@ WHERE
 
 ## Resources
 {% for post in site.categories['SQL'] %}
-*   [{{ post.url }}]({{post.title}}{{ site.baseurl }})
+*   [{{ post.title }}]({{ site.baseurl }}{{post.url}})
 {% endfor %}
