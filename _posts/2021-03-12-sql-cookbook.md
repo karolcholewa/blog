@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "SQL CookBook Recipies"
+title: "SQL Recipies for Data Validation and Reports"
 categories: [SQL, SFMC]
 ---
 
-This is a collection of quick recipies for SQL reports or data digging. This post is incremental not to create short posts for quick SQL queries and tips.
+This is an attempt to create a longer post with a collection of short and sweet recipies for **data validation** and **reports**. The post is intended to grow over time and contain frequently used SQL snippets or scenarios. 
 
 ## PatIndex() and Left()
 The PatIndex() function returns a position of a pattern in a string. However, in conjunction with other string functions, such as Left() it allows you to further extract string patters from a whole. 
@@ -31,9 +31,7 @@ WHERE
 ```
 
 ## CASE
-Aliases for link tracking are helpful, but what if you missed a chance to add them before send?
-
-Just another use for the CASE statement. 
+Aliases for link tracking are helpful, but what if you missed a chance to add them before send? This is just another use for the CASE statement. 
 
 ```sql
 SELECT
@@ -84,3 +82,8 @@ WHERE
     AND
      Year(GetUTCDate()) - Year(Convert(date, Convert(varchar, DoB))) > 17)
 ```
+
+## Resources
+{% for post in site.categories['SQL'] %}
+*   [{{ post.url }}]({{post.title}}{{ site.baseurl }})
+{% endfor %}
