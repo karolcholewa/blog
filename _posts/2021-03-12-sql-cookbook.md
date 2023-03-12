@@ -83,6 +83,24 @@ WHERE
      Year(GetUTCDate()) - Year(Convert(date, Convert(varchar, DoB))) > 17)
 ```
 
+## Not Engaged Subscribers
+To find subscribers who did not open and did not click an email:
+```sql
+SELECT DISTINCT
+LEFT(s.SubscriberKey, PATINDEX('%[-]%', s.SubscriberKey) -1) AS MemberID
+,s.SubscriberKey
+,j.EmailName
+,s.EventDate as SentDate
+,o.EventDate as OpenDate
+,s.JobID
+FROM _Sent s
+LEFT JOIN _Job j ON s.JobID = j.JobID
+LEFT JOIN _Open o ON s.JobID = o.JobID AND s.ListID = o.ListID AND s.BatchID = o.BatchID AND s.SubscriberID = o.SubscriberID AND o.IsUnique = 1
+LEFT JOIN _Click c ON s.JobID = c.JobID AND s.ListID = c.ListID AND s.BatchID = c.BatchID AND s.SubscriberID = c.SubscriberID AND c.IsUnique = 1
+WHERE
+s.JobID = 1234567890 AND (o.SubscriberID is NULL AND c.SubscriberID is NULL)
+```
+
 ## Resources
 {% for post in site.categories['SQL'] %}
 *   [{{ post.title }}]({{ site.baseurl }}{{post.url}})
