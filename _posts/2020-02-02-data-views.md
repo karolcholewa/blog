@@ -4,7 +4,7 @@ title: "Pull More with Data Views"
 categories: SQL
 ---
 
-Data Views store information about subscribers and are a crucial part of any segmentation in SFMC. Here is a simple scenario when and how to use data views in conjunction with custom reports from business.
+Data Views store tracking information related to Contacts and the system, for example automations performance. They are a useful tool for troubleshooting whether a message has been sent out to a subscriber. Here is a simple scenario when and how to use data views in conjunction with custom reports from business.
 
 ## Scenario
 A Sales department sent in a report with customerID, SubscriberKey, email addresses and countries of residence of people who should be emailed about XYZ campaign. The data has been uploaded to a sendable DE and filtered into DE for each country. A campaign has been sent out.

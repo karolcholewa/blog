@@ -102,6 +102,8 @@ s.JobID = 1234567890 AND (o.SubscriberID is NULL AND c.SubscriberID is NULL)
 ```
 
 ## Resources
+*   [SQL Query Examples](https://help.salesforce.com/s/articleView?id=sf.mc_as_sql_query_examples.htm&type=5)
+*   [Opens in Last 30 Days](https://help.salesforce.com/s/articleView?id=sf.mc_as_query_opens_in_last_30_days_ref.htm&type=5)
 {% for post in site.categories['SQL'] %}
 *   [{{ post.title }}]({{ site.baseurl }}{{post.url}})
 {% endfor %}
