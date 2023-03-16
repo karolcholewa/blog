@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello! 👋 My name is Karol (Carlito) and this is my **martech weblog**. Here I put down short notes, recipies, and code snippets that I found useful or interesting or both. Around 2018 *I was picked by the email marketing profession* to build and automate emails. This is how I started blazing the trail of the **Salesforce Marketing Cloud**.
+Hi!👋 My name is Karol (Carlito) and this is my **martech weblog**. Here I put down short notes, recipies, and code snippets that I found useful or interesting or both. Around 2018 *I was picked by the email marketing profession* to build and automate emails. This is how I started blazing the trail of the **Salesforce Marketing Cloud**.
 
 
 ## ★ Purpose 
