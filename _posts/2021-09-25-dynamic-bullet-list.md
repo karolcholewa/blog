@@ -40,7 +40,7 @@ SET @c_bulletPoint5 = Field(@content,"Bullet5",0)
     SET @c_bulletPoint = Field(@content,Concat('Bullet',@counter),0)
 ]%%
     %%[IF NOT Empty(@c_bulletPoint) THEN]%%
-    <li style="padding-bottom:15px">%%=V(@c_bulletPoint)=%%</li>
+    <li>%%=V(@c_bulletPoint)=%%</li>
     %%[ENDIF]%%
 %%[ NEXT @counter ENDIF]%%
 </ul>   
