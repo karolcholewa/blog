@@ -7,7 +7,7 @@ categories: [SQL]
 **All Contacts** in Contact Builder represent all records for all the channels. All Subscribers are Contacts but not the other way around. Therefore you can preview Subscribers or Mobile Contacts separately using Contact Builder or Data Views. Odly enough, there is no unique table to query All Contacts so to find a specific Contact from All Contacts just query the **_Subscribers** table. 
 
 ## Filter Contacts Using SQL DateJoined
-The **DateJoined** is a very useful column that holds the date the Subscriber joined the All Contacts list. This example helps find Contacts added to a hidden triggered send managed list (antiquated approach to managing triggered send subscribers) and for example import them to a data extension and delete.
+The **DateJoined** is a very useful column that holds the date the Subscriber joined the All Contacts list. This example helps find Contacts added to a hidden triggered send managed list (antiquated approach to managing triggered send subscribers) in February.
 
 ```sql
 SELECT SubscriberID
