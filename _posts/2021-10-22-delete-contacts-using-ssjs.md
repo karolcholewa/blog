@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Delete Contacts Using SSJS"
-categories: [SSJS]
+categories: [SSJS, SFMC]
 ---
 
 Contact deletion is an elaborated an sophisticated process. Not due to the number of steps to perform but due to sometimes unforseen repercussions. For example after deleting a Contact you also opt-out that Contact from SMS and Push in the future. **Read twice** the SFMC documentation prior to deleting Contacts especially in larger batches. 
