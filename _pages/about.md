@@ -40,6 +40,6 @@ The source code for this website has been forked from a 'ridiculously elegant Je
 You can use content from posts without restrictions unless it is marked and attributed to other sources. I link to resources which elaborate on the subject covered in the posts.
 
 ## 🔗 Let's connect 
-* Visit my profile on [LinkedIn](https://www.linkedin.com/in/karolcholewa/)
-* Follow on [Twitter](https://twitter.com/karolcholewa)
-* Send an email at karol.ch@gmail.com
+* On [LinkedIn](https://www.linkedin.com/in/karolcholewa/)
+* or send an email to karol.ch@gmail.com
+<!--* Follow on [Twitter](https://twitter.com/karolcholewa)-->
