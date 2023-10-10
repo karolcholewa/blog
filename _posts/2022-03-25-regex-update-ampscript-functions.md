@@ -20,14 +20,37 @@ SET @MyAttributeValue = AttributeValue(‘MyAttributeValue’)
 SET @MyAttributeValue = Lookup(@c_dataSource, ‘MyAttributeValue’, ‘SubscriberKey’, _subscriberkey)
 ```
 
-### Find
+### Find the Old Format
 ```javascript
 AttributeValue\('(?<=')(\w.*)'\)
 ```
 
-### Replace with
+### Replace with the New Format
 ```javascript
 Lookup\(@c_dataSource, '$1', 'SubscriberKey', _subscriberKey\)
+```
+
+## More Examples
+
+```javascript
+SET @c_dataSource = _DataSourceName
+
+/*Old Format*/
+SET @myVariable = Lookup(@c_dataSource, 'myVariable', 'SubscriberKey', SubscriberKey)
+
+/*New Format*/
+SET @myVariable = Field(@tsdeRow, 'myVariable', 0)
+```
+
+### Find the Old Format
+```javascript
+Lookup\(@c_dataSource, (\'.*?\'), 'SubscriberKey', SubscriberKey\)
+
+```
+
+### Replace with the New Format
+```javascript
+Field(@tsdeRow, $1, 0)
 ```
 
 ## Resources
