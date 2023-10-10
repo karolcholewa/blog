@@ -17,6 +17,7 @@ This is a work in progress post that collects practical notes from working with 
 *   Keep SMS content within a single message; translated content may be longer and increase cost
 *   Create content in Content Builder; access the CB from the main menu (not from the Email Studio)
 *   Contact may have more than one Mobile number assigned
+*   The **Locale** attribute is important and may cause *Undeliverable*; verify that the Locale is accurate along with the dialing code for example +64xxx-xxx-xxx along with the NZ locale (en_NZ/en-NZ) is correct
 
 
 ## Resources
