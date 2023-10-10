@@ -5,6 +5,6 @@ categories: [SQL]
 ---
 To add a column with an email domain use the following snippet:
 ```sql
-RIGHT(Email, LEN(Email) - CHARINDEX('@', Email) + 1) as domainName
+RIGHT(Email, LEN(Email) - CHARINDEX('@', Email) + 1) AS domainName
 ```
 
