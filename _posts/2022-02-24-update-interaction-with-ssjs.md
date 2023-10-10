@@ -25,3 +25,6 @@ This script adds an exclusion script to the triggered send interactions found in
   }
 </script>
 ```
+
+## Resources
+*   [Triggered Sends in Email Studio](https://help.salesforce.com/s/articleView?id=sf.mc_es_triggered_emails.htm&type=5)
