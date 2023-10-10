@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Regex - Update AMPScript Functions"
-categories: [SQL]
+categories: [AMPScript]
 ---
 You have set dozens of variables using the **AttributeValue()** function and need to change it to the **Lookup()** function&hellip; This is useful for a very specific case; you want to keep the data source as specified in the Lookup() function and skip any fallback values from Profile Attributes.
 
