@@ -3,7 +3,8 @@ layout: post
 title: "Find a Domain Name in SQL Query"
 categories: [SQL]
 ---
+To add a column with an email domain use the following snippet:
 ```sql
-RIGHT(EmailAddress, LEN(EmailAddress) - CHARINDEX('@', EmailAddress) + 1) as domainName
+RIGHT(Email, LEN(Email) - CHARINDEX('@', Email) + 1) as domainName
 ```
 
