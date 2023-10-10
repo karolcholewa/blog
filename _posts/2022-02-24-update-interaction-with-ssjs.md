@@ -11,7 +11,7 @@ This script adds an exclusion script to the triggered send interactions found in
 ```javascript
 <script runat="server">
   Platform.Load("core","1");
-  var customerKeys = ["customerKey_1","customerKey_2","customerKey_3","customerKey_4"];
+  var customerKeys = ["customerKey_1","customerKey_2","customerKey_3"];
   var exclusionScript = 'Domain(emailaddr) != "mydomain.com"';
   for (var i = 0; i < customerKeys.length; i++) {
     var customerKey = customerKeys[i];
