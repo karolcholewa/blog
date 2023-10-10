@@ -4,7 +4,7 @@ title: "Mobile Studio Notes"
 categories: [SFMC]
 ---
 
-This is a work in progress post that collects practical notes from working with the Mobile Studio.
+A few practical remarks after spending a few days on troubleshooting the Mobile Studio implementation and using it for **Push** and **SMS** in Journey Builder.
 
 ## Mobile Push Notes
 *   A client's mobile app integrates with SFMC using MobileSDK
