@@ -19,7 +19,11 @@ A few practical remarks after spending a few days on troubleshooting the Mobile 
 *   Contact may have more than one Mobile number assigned
 *   The **Locale** attribute is important and may cause *Undeliverable*; verify that the Locale is accurate along with the dialing code for example +64xxx-xxx-xxx along with the NZ locale (en_NZ/en-NZ) is correct
 
+##  Query Data Views
+The **_PushAddress** data view table provides additional demographic data about you Mobile Subscribers. The **_ContactID** is the **SubscriberID** to identify the Contact.
+
 
 ## Resources
 *   [Salesforce MobileConnect – How to Send SMS from Marketing Cloud](https://www.salesforceben.com/the-drip/salesforce-mobileconnect-how-to-send-sms-from-marketing-cloud/)
 *   [Keywords and Codes](https://help.salesforce.com/s/articleView?id=sf.mc_moc_managing_keywords_on_short_and_long_codes_in_your_mobileconnect_accounts.htm&type=5)
+*   [Interactive Data Views](https://dataviews.io/)
