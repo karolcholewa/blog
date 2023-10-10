@@ -6,7 +6,7 @@ categories: [SFMC]
 In Journey Builder, the **Failed** status doesn't mean the Contact failed when analyzing the journey history. Today is the **April Fools’ Day** but no pun intended&hellip;
 
 ## Failed to Proceed
-Journey History displays the following status: *"Failed - MetExitCriteria/MetGoalCriteria"*. It means that the Contact within the journey, met the criteria and failed to move to next activity.
+Journey History displays the following status: *"Failed - MetExitCriteria/MetGoalCriteria"*. It means that the Contact met the journey's criteria and therefore *failed to move to the next activity*.
 The status **Failed** in the UI, indicates exiting a journey after meeting **Goal** or **Exit Criteria**. 
 
 
