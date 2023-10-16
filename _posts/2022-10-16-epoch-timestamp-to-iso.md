@@ -25,5 +25,5 @@ SET @timeStampLocalized = FormatDate(@timeStamp,"l","s",Locale)
 ```
 ## Resources
 *   [Salesforce Stack Exchange](https://salesforce.stackexchange.com/questions/216677/convert-from-epoch-to-datetime-in-ampscript)
-*   [EPOCH Online Converter](https://www.epochconverter.com/)
+*   [Epoch Online Converter](https://www.epochconverter.com/)
 *   [FormatDate() AMPScript Guide](https://ampscript.guide/formatdate/)
