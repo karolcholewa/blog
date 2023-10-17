@@ -34,7 +34,6 @@ clientsList = ["ID_" + str(i).zfill(6) for i in range(10000)]
 
 #Get random Clients from the clientsList to create a random segment
 list1 = random.sample(clientsList, 20)
-#print("\n\n" + str(list1))
 list2 = random.sample(clientsList, 129)
 list3 = random.sample(clientsList, 1483)
 
