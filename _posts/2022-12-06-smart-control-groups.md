@@ -16,6 +16,7 @@ As per calculations below, with a large enough sample (over 1000), each subset r
 
 ## Benefits of Smart Control Groups
 *   Easy and predictable as opposed to random splits
+*   Pick a number or two from 0-9 to represent a 10% or 20% subset - a control group to exclude from a campaign
 *   No need to keep a record of randomly excluded clients for each campaign or a journey
 *   Easy to track a contact lifecycle through multiple journeys knowing that the ID was a part of the segment or excluded in a subset
 *   Beautiful math
