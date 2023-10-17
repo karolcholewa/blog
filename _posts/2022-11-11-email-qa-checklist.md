@@ -7,16 +7,10 @@ A comprehensive checklist for an email quality assurance (QA). I've found it on 
 
 ## Email QA Checklist
 
-[] The subject line, preheader, FromName, and FromAddress are correct
-[] Email is using the correct header and footer
-[ ] Email is using the correct template (if applicable)
-[x] No typos or grammatical errors
- 
-
-* [] The subject line, preheader, FromName, and FromAddress are correct
-* [] Email is using the correct header and footer
-* [ ] Email is using the correct template (if applicable)
-* [x] No typos or grammatical errors
+* The subject line, preheader, FromName, and FromAddress are correct
+* Email is using the correct header and footer
+* Email is using the correct template (if applicable)
+* No typos or grammatical errors
 * All images render correctly
 * Email utilizes inclusive marketing principles
 * All links work, have alias tags set, and go to the correct location
