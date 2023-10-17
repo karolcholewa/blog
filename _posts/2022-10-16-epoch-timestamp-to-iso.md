@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Convert an Epoch/Unix Timestamp to an ISO Format"
-categories: [SSJS]
+categories: [SSJS, AMPScript]
 ---
 An 'epoch' is a the Unix time 0 also a synonym of the 'Unix time'. Unix time format is useless with AMPScript functions. It needs to be converted to a human-format such as ISO 8601. Ideally, you want to receive timestamp attribute values, from upstream systems, in text strings formatted as ISO 8601.Nevertheless, conversion from an Epoch value to ISO value can be done using SSJS&hellip;
 
