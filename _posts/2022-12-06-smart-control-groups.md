@@ -21,6 +21,7 @@ As per calculations below, with a large enough sample (over 1000), each subset r
 *   Beautiful math
 
 ## Math Behind Smart Control Groups
+This Python script generates a clients list, then randomizes for a segment and pulls subset for a control group. Smaller samples are quite random but larger samples approximate almost evenly toward 10% for each subset. In other words it does not matter whether a subset contains IDs that end with 3 or 7 or 0. With samples large enough, each control group is close to 10% of the segment.
 ```python
 import random
 def control_group_distrib(list_name : list):
