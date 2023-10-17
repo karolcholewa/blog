@@ -8,7 +8,7 @@ According to the Bing Chat: A **control group** is a subset of the total group o
 ## Smart Control Groups
 Most control groups that I stumbled upon were plain random splits such as 90/10% or 80/20%. It is a natural and practical implementation of an excluded subset. Nevertheless, I found a smarter formula for creating a control group. 
 
-This formula assumes that an organization uses numeric IDs to identify campain members. For example the ACME Company identifies its clients using 6-digit IDs such as: 111111, 123456, 102034, and so on.
+This formula assumes that an organization uses numeric IDs to identify campain members. For example the ACME Company identifies its clients using 6-digit (or more) IDs such as: 111111, 123456, 102034, and so on. This could also be any alphanumeric combination such as ID_123456 or Client-111111.
 
 Let a whole campagin segment contains 10000 random clients. A Smart Control Group (SCG) identifies a subset using the **last digit** from the ID that is: 11111**1**, 12345**6**, 10203**4**. In other words, a subset contains clients whose ID ends with **1** or...in fact any natural number from 0-9.
 
@@ -30,7 +30,7 @@ def control_group_distrib(list_name : list):
     print(str(i) + " counted " + str(count)  + " | " + str(percent) + "%")
 
 #ClientIDs increment using a regular counter. This creates an array of ClientIDs from 0-... as a main pool of clientList.
-clientsList = ["ID_" + str(i).zfill(3) for i in range(10000)]
+clientsList = ["ID_" + str(i).zfill(6) for i in range(10000)]
 
 #Get random Clients from the clientsList to create a random segment
 list1 = random.sample(clientsList, 20)
