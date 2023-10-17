@@ -3,7 +3,7 @@ layout: post
 title: "Smart Control Groups"
 categories: [EmailMarketing]
 ---
-Most control groups that I stumbled upon were plain random splits such as 90/10 % or 80/20 %. It is a natural and practical implementation of an excluded subset. Nevertheless, I found a smarter formula for creating a control group.
+Most control groups that I stumbled upon were plain random splits such as 90/10 % or 80/20 %. It is a natural and practical implementation of an excluded subset. Nevertheless, I found a smarter formula for creating a control group&hellip;
 
 ## Smart Control Groups
 According to the **Bing Chat**:
