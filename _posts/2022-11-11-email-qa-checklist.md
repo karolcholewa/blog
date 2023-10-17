@@ -3,7 +3,7 @@ layout: post
 title: "Email QA Checklist"
 categories: [EmailMarketing, SFMC]
 ---
-A comprehensive checklist for an email quality assurance (QA). I've found it on the Internet (it is likely made by the Salesforce Team), copied and pasted for a quick reference. The link to the original file within the post.
+A comprehensive checklist for an email quality assurance (QA). I've found it on the Internet (it is likely made by the Salesforce Team), copied and pasted for a quick reference. The link to the original file within the post&hellip;
 
 ## Email QA Checklist
 

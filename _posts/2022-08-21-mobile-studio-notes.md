@@ -4,7 +4,7 @@ title: "Mobile Studio Notes"
 categories: [SFMC]
 ---
 
-A few practical remarks after spending a few days on troubleshooting the Mobile Studio implementation and using it for **Push** and **SMS** in Journey Builder.
+A few practical remarks after spending a few days on troubleshooting the Mobile Studio implementation and using it for **Push** and **SMS** in Journey Builder&hellip;
 
 ## Mobile Connect Notes
 *   Mobile = multichannel / real-time engagement / location based / convinient

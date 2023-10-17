@@ -4,7 +4,7 @@ title: "Email Design System"
 categories: [EmailMarketing, HTML, SFMC]
 ---
 
-It's all about proper, branded content that's built, tested and delivered just on time. With small, incidental email campaigns it does not sound very difficult. Neither should it for fast growing organizations who rely on high quality content. 
+It's all about proper, branded content that's built, tested and delivered just on time. With small, incidental email campaigns it does not sound very difficult. Neither should it for fast growing organizations who rely on high quality content&hellip;
 
 ## Prototype, Build and Test in Content Builder
 Email Studio is a perfect environment for building emails using reusable content blocks. I am in favour of a single template file and a collection of reusable, drag-and-drop, (shared) content blocks. A few key findings from working with EDS based on content blocks in CB:
