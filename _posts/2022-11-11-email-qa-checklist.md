@@ -1,13 +1,19 @@
 ---
 layout: post
 title: "Email QA Checklist"
-categories: [EmailMarketing]
+categories: [EmailMarketing, SFMC]
 ---
-A comprehensive checklist for an email quality assurance (QA). I've found it on the Internet, copied and pasted for a quick reference. The link to the original file within the post.
+A comprehensive checklist for an email quality assurance (QA). I've found it on the Internet (it is likely made by the Salesforce Team), copied and pasted for a quick reference. The link to the original file within the post.
 
 ## Email QA Checklist
 
-* [] The subject line and preheader are correct
+[] The subject line, preheader, FromName, and FromAddress are correct
+[] Email is using the correct header and footer
+[ ] Email is using the correct template (if applicable)
+[x] No typos or grammatical errors
+ 
+
+* [] The subject line, preheader, FromName, and FromAddress are correct
 * [] Email is using the correct header and footer
 * [ ] Email is using the correct template (if applicable)
 * [x] No typos or grammatical errors
@@ -24,6 +30,6 @@ A comprehensive checklist for an email quality assurance (QA). I've found it on 
 * Email validates against test, proof, seed, and live data
 * All dynamic elements are functioning properly (if applicable)
 
-
 ## Resources
-*   [Email QA Checklist](https://quip.com/kRjZA7dJ1TNb)
+*   [Email QA Checklist by Salesforce](https://quip.com/kRjZA7dJ1TNb)
+*   [Email Testing and QA by Litmus](https://www.litmus.com/blog/email-testing-and-qa)
