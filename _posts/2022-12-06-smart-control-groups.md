@@ -3,7 +3,7 @@ layout: post
 title: "Smart Control Groups"
 categories: [EmailMarketing]
 ---
-According to the Bing Chat: A **control group** is a subset of the total group of customers being exposed to a test. In marketing segmentation, control groups are used to measure the impact of a specific campaign or customer journey. Specifically, control groups are the customers you are targeting with a particular campaign who will not receive that campaign.
+According to the Bing Chat: *"A control group is a subset of the total group of customers being exposed to a test. In marketing segmentation, control groups are used to measure the impact of a specific campaign or customer journey. Specifically, control groups are the customers you are targeting with a particular campaign who will not receive that campaign."*
 
 ## Smart Control Groups
 Most control groups that I stumbled upon were plain random splits such as 90/10% or 80/20%. It is a natural and practical implementation of an excluded subset. Nevertheless, I found a smarter formula for creating a control group. 
