@@ -45,7 +45,7 @@ Email Marketing community is simply fantastic. It gathers professionals with ric
 *   [SFMC Companion](https://chrome.google.com/webstore/detail/sfmc-companion/kllkonffdjfimimaellfmgnakhlbeicg)
 *   [Really Good Emails](https://reallygoodemails.com/)
 *   [Gregory Gifford's Blog](https://gortonington.com/)
-*   [SFMC StackExchange](https://salesforce.stackexchange.com/questions/tagged/
+*   [SFMC StackExchange](https://salesforce.stackexchange.com/questions/tagged/)
 *   [Adam's Post on Medium about Self-Help](https://dy.si/uX9HQ)
 *   [Lukas Lunow's Blog](https://digitalmarketingoncloud.com/)
 
