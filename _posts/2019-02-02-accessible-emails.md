@@ -3,7 +3,7 @@ layout: post
 title: "Accessible Emails"
 categories: EmailMarketing
 ---
-Email is a powerful means of communication due to its universality and simplicity. Although initially limited to early adopters in universities, goverment agencies or tech companies, after over 40 years of existence it became a ubiquitous channel for personal relationship and brands or goods marketing. Similarly to the web, as it has been exposed to a broader audience, email should overcome limitations related to disabilities and inabilities of different kinds for human beings. Whether it is impaired hearing, movement, sight or cognitive ability, email and web technology should meet the goal of including everyone with no exceptions.
+After over 40 years of existence email became a ubiquitous channel for personal relationship and brands or goods marketing. Similarly to the web, as it has been exposed to a broader audience, email should **overcome limitations** related to disabilities and inabilities of different kinds for human beings. Whether it is impaired hearing, movement, sight or cognitive ability, email and web technology should meet the goal of including everyone with no exceptions.
 
 Here is a brief list of recommended accessibility rules for emails. The subject is broad enough to be a domain on its own but worth mentioning it in my notes. Most inspirations for email accessibility come from Mark Robins - a web and email developer (once RebelMail now Salesforce).
 
