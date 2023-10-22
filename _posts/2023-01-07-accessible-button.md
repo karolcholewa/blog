@@ -3,13 +3,17 @@ layout: post
 title: "Accessible CTA Button"
 categories: [HTML]
 ---
-This is a summary/extract from **Paul's Airy** article about the Web Content Accessibility Guidelines (WCAG) and importance of the target size for call to action (CTA) **buttons and links**. Browsers render the <button> or the <input> tags properly making the entire bounding box clickable. In email it requires a bit more scrutiny&hellip;
+This is a summary/extract from **Paul's Airy** article about the Web Content Accessibility Guidelines (WCAG) and importance of the target size for call to action (CTA) **buttons and links**. While browsers render the ```<button>``` or the ```<input>``` tags properly making the entire bounding box clickable, in email it requires a bit more scrutiny&hellip;
 
 ## Accessible Buttons
 According to the **Success Criterion 2.5.5 Target Size (Enhanced)**, a selectable area of a target should be 44px X 44px minimum. Therefore, the entire area of a CTA button should be selectable, not just its text. As buttons are constructed with anchor tags to meet the requirems apply padding around the <a> tag as follows:
 
 ```html
-<a href="" target="_blank" style="font-family:Arial, sans-serif; font-size:18px; line-height:1.1em; font-weight:bold; color:#ffffff; text-decoration:none; text-align:center; padding:0.75em 1em; display:block;">Call to Action</a>
+<a href="" target="_blank" 
+style="font-family:Arial, sans-serif; font-size:18px; 
+line-height:1.1em; font-weight:bold; color:#ffffff; 
+text-decoration:none; text-align:center; 
+padding:0.75em 1em; display:block;">Call to Action</a>
 ```
 
 ## Accessible Links
