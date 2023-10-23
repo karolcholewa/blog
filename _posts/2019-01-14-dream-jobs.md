@@ -5,7 +5,7 @@ categories: Career
 ---
 
 
-The goal shapes the process. Have a goal so your process is targeted. I've listed roles that combine email marketing strategy and development, SFMC administration and development, data modelling and email automation. I am developing toward such roles.
+In this post I've listed roles that combine email marketing automation, SFMC configuration and development, data modelling and platform integrations. These roles and a required skillset seem to define a most wanted **individual contributor** but also a potential lead of a small team of trusted colleagues.
 
 ## Salesforce Marketing Cloud Developer (Solution Engineer)
 
