@@ -3,7 +3,7 @@ layout: post
 title: "Accessible CTA Button"
 categories: [HTML]
 ---
-This is a summary/extract from **Paul's Airy** article about the Web Content Accessibility Guidelines (WCAG) and importance of the target size for call to action (CTA) **buttons and links**. While browsers render the ```<button>``` or the `<input>` tags properly making the entire bounding box clickable, in email it requires a bit more scrutiny&hellip;
+This is a summary/extract from **Paul's Airy Type E: email newsletter** about the Web Content Accessibility Guidelines (WCAG) and importance of the target size for call to action (CTA) **buttons and links**. While browsers render the ```<button>``` or the `<input>` tags properly making the entire bounding box clickable, in email it requires a bit more scrutiny&hellip;
 
 ## Accessible Buttons
 According to the **Success Criterion 2.5.5 Target Size (Enhanced)**, a selectable area of a target should be 44px X 44px minimum. Therefore, the entire area of a CTA button should be selectable, not just its text. As buttons are constructed with anchor tags to meet the requirems apply padding around the `<a>` tag as follows:
@@ -28,7 +28,7 @@ The new feature of the **Success Criterion 2.5.5 Target Size (Enhanced)** helps 
 
 
 ## Resources
-*   [Paul Airy Blog](https://beyondtheenvelope.cmail19.com/t/d-e-vtlody-jlaiyail-a/)
+*   [Paul Airy Type E: Newsletter](https://beyondtheenvelope.co.uk/type-e.php)
 *   [WCAG Success Criterion 2.5.5 Target Size (Enhanced)](https://www.w3.org/TR/WCAG22/#target-size-enhanced)
 *   [WCAG Success Criterion 2.5.8 Target Size (Minimum)](https://www.w3.org/TR/WCAG22/#target-size-minimum)
 *   [WCAG Bounding Box Definition](https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes)
