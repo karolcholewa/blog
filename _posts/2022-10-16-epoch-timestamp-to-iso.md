@@ -28,7 +28,7 @@ SET @timeStampLocalized = FormatDate(@timeStamp,"l","s",@locale)
 ## A Trouble with a Time Offset in AMPScript
 The ISO timestamp format provides an offset value related to the UTC (Z as the Zulu time means zero offset). If the offset is "+02:00," it means that the local time is 2 hours ahead of UTC.
 If the offset is "-05:30," it means that the local time is 5 hours and 30 minutes behind UTC. The offset is an essential part of the ISO 8601 format because it allows you to specify the exact time zone in which a date and time are expressed, making it easy to convert and compare times across different time zones accurately.
-Passing a timestamp with an offset to the **FormatDate()** function returns the time in UTC! Trying to calculate the offset using the **getTimeZoneOffset()** JavaScript function complicates the things further, as the local time is the SFMC server time that is UTC-6. 
+Passing a timestamp with an offset to the **FormatDate()** function returns the time in UTC! Trying to calculate the offset using the **getTimeZoneOffset()** JavaScript function complicates the things further, as the local time is the SFMC server time that is UTC-6. Interetingly enought a web version of an email (view in browser link) may vary further if a browser local settings are used for calculations&hellip;
 To format and show the local time I simply trimmed the offset part.
 
 ## Resources
