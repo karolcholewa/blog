@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Email Marketing Resources"
+title: "Email Marketing Resources and Beyond"
 categories: EmailMarketing
 ---
 
@@ -10,13 +10,13 @@ Email Marketing community is simply fantastic. It gathers professionals with ric
 
 ## Jason’s Rodriguez Ultimate List of Email Resources
 
--   [https://thebetter.email/resources](https://thebetter.email/resources)
-
--   [https://www.goodemailcode.com/](https://www.goodemailcode.com/)
+*   [https://thebetter.email/resources](https://thebetter.email/resources)
+*   [https://www.goodemailcode.com/](https://www.goodemailcode.com/)
 
 
 ## Salesforce Marketing Cloud
 
+*   [Marketing Cloud Release Notes](https://help.salesforce.com/s/articleView?id=sf.mc_rn_release_notes.htm&language=en_US&type=5)
 *   [https://www.salesforce.com/products/marketing-cloud/resources/email-marketing-best-practices/?d=marketingcloud.com/products/email-marketing/email-marketing-best-practices&internal=true](https://www.salesforce.com/products/marketing-cloud/resources/email-marketing-best-practices/?d=marketingcloud.com/products/email-marketing/email-marketing-best-practices&internal=true)
 *   [https://developer.salesforce.com/docs/atlas.en-us.mc-programmatic-content.meta/mc-programmatic-content/index.htm](https://developer.salesforce.com/docs/atlas.en-us.mc-programmatic-content.meta/mc-programmatic-content/index.htm)
 *   [https://help.marketingcloud.com/en-US/documentation/exacttarget/content/personalization_strings/](https://help.marketingcloud.com/en-US/documentation/exacttarget/content/personalization_strings/)
@@ -48,4 +48,6 @@ Email Marketing community is simply fantastic. It gathers professionals with ric
 *   [SFMC StackExchange](https://salesforce.stackexchange.com/questions/tagged/)
 *   [Adam's Post on Medium about Self-Help](https://dy.si/uX9HQ)
 *   [Lukas Lunow's Blog](https://digitalmarketingoncloud.com/)
+*   [AMPScript Best Practices](https://quip.com/zMknAREQd4Bl)
+
 
