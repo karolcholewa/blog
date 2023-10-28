@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Email Marketing Resources and Beyond"
-categories: EmailMarketing
+categories: [EmailMarketing, AMPScript, SSJS]
 ---
 
 Email Marketing community is simply fantastic. It gathers professionals with rich and diversified backgrounds. You will find front-end developers, database nerds, creative copywriters, website publishers and digital marketers working in nearly every type of organization and business area. 
