@@ -15,6 +15,22 @@ WHERE 0 = 1
 /*Set the Action to Overwrite DE*/
 ```
 
+#   Clear DE Using SSJS
+Sascha Huwald has elaborated on clearing records in [his post](https://www.linkedin.com/pulse/ssjs-clear-entire-data-extension-sascha-huwald/). Here is a method by Gregory Gifford, also from Sascha's post:
+
+```javascript
+function clearDE(custKey) {
+ var prox = new Script.Util.WSProxy();  
+ var action = "ClearData";
+ var props = {
+     CustomerKey: custKey
+ };
+ var data = prox.performItem("DataExtension", props, action);
+ return data;
+}
+```
+
 ## Resources:
 
 *   [Retrieving and Segmenting Data with a SQL Query Activity](https://help.salesforce.com/s/articleView?id=sf.mc_as_using_the_query_activity.htm&type=5)
+*   [SSJS: Clear an entire Data Extension](https://www.linkedin.com/pulse/ssjs-clear-entire-data-extension-sascha-huwald/)
