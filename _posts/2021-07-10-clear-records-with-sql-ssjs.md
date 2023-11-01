@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Clear Records Using SQL Query Activity"
-categories: [SQL]
+title: "Clear Records Using SQL Query Activity or SSJS"
+categories: [SQL, SSJS]
 ---
 
 A short 'hack' to clear records from a data extension using a SQL query activity. It's fast and useful in a multistep automation. Use it as a safety measure to clear data from a data extension before loading new data into it in the following step.
