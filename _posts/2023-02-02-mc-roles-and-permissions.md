@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Roles and Permissions"
+title: "Marketing Cloud Roles and Permissions"
 categories: [SFMC]
 ---
-There are five standard Roles which give access to features related to functions alike. Each role has a set of permissions that allows users perform specific task. It is hard to remember all the combinations but there are three rules for permissions: **explicitly granted, explicitly denied, not explicitly granted/denied**&hellip;
+There are five standard Roles which give access to features related to functions alike. Each role has a set of permissions that allows users perform specific task. In addition to the MC Roles, there are four Email Studio or Classic Roles. While it is hard to remember all the combinations, there are three rules for the permissions: **explicitly granted, explicitly denied, not explicitly granted/denied**&hellip;
 
 ## Standard Roles
 The roles are listed from the most to the least access.
@@ -40,6 +40,16 @@ All other permissions are explicitly denied.
 
 ## MC Viewer
 The most restrictive role with only explicitly granted access to general functions, calendar, campaigns and contacts. Every other permission is explicitly denied. 
+
+## Email Studio aka Classic Roles
+It is probably due to the ExactTarget legacy but in addition to the MC Roles there are four additional Email Studio roles:
+*   **Administrator** - all permissions, related to Email Studio, explicitly granted 
+*   **Analyst** - full access to the Tracking area
+*   **Content Creator** - general access plus full access to Content and Shared Classic Content
+*   **Data Manager** - full access to everything in Email Studio except email content
+
+## The Real SFMC Admin
+Assign both the **MC Administrator** and the **Administrator** roles to a full fledged, power Admin.
 
 ## Resources
 *   [Trailhead Module](https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-roles-and-permissions-quick-look)
