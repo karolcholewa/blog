@@ -48,6 +48,8 @@ It is probably due to the ExactTarget legacy but in addition to the MC Roles the
 *   **Content Creator** - general access plus full access to Content and Shared Classic Content
 *   **Data Manager** - full access to everything in Email Studio except email content
 
+By default all MC roles have the following expansion permissions to Email Studio: *Access System Default Email Templates*, *General Access*. In addition there are a few other additional permissions for each MC role for the Email Studio, therefore the Classic Roles expand MC Roles within the Email Studio.
+
 ## The Real SFMC Admin
 Assign both the **MC Administrator** and the **Administrator** roles to a full fledged, power Admin.
 
