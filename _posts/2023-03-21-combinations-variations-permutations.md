@@ -3,7 +3,7 @@ layout: post
 title: "Combinations, Variations, Permutations"
 categories: [EmailMarketing]
 ---
-A short cheet sheet useful for a tech marketer. For example, a **combination** can help to find a number of possible scenarios to test entry source criteria. A **variation** explains why a system requires stronger passwords than a 4-digits bicycle lock&hellip;
+A short cheet with basic combinatorics formulas that are handy in martech too. For example, a **combination** can help to find a number of possible scenarios to test entry source criteria. A **variation** explains why a system requires stronger passwords than a 4-digits bicycle lock&hellip;
 
 ## Combinations - Order Does Not Matter
 If the ACME fintech company offers five different products (n-number of uniquely identified product codes), how many scenarios does a QA person need to test the possible product combinations, if a Client purchased a k-number of unique products? It could be useful to test different versions of a copy to display depending on the product combination.
