@@ -14,7 +14,7 @@ Email Marketing community is simply fantastic. It gathers professionals with ric
 *   [https://www.goodemailcode.com/](https://www.goodemailcode.com/)
 
 
-## Salesforce Marketing Cloud
+## Salesforce Marketing Cloud + Email Marketing
 
 *   [Marketing Cloud Release Notes](https://help.salesforce.com/s/articleView?id=sf.mc_rn_release_notes.htm&language=en_US&type=5)
 *   [https://www.salesforce.com/products/marketing-cloud/resources/email-marketing-best-practices/?d=marketingcloud.com/products/email-marketing/email-marketing-best-practices&internal=true](https://www.salesforce.com/products/marketing-cloud/resources/email-marketing-best-practices/?d=marketingcloud.com/products/email-marketing/email-marketing-best-practices&internal=true)
@@ -49,5 +49,7 @@ Email Marketing community is simply fantastic. It gathers professionals with ric
 *   [Adam's Post on Medium about Self-Help](https://dy.si/uX9HQ)
 *   [Lukas Lunow's Blog](https://digitalmarketingoncloud.com/)
 *   [AMPScript Best Practices](https://quip.com/zMknAREQd4Bl)
+*   [Email Coding Platform Parcel.io](https://parcel.io)
+*   [SFMCJobs](https://www.sfmcjobs.com/)
 
 
