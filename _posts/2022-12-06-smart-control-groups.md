@@ -10,9 +10,9 @@ According to the **Bing Chat**:
 > A control group is a subset of the total group of customers being exposed to a test. In marketing segmentation, control groups are used to measure the impact of a specific campaign or customer journey. Specifically, control groups are the customers you are targeting with a particular campaign who will not receive that campaign.
 
 
-This formula assumes that an organization uses numeric IDs to identify campain members. For example the ACME Company identifies its clients using 6-digit (or more) IDs such as: 111111, 123456, 102034, and so on. This could also be any alphanumeric combination such as ID_123456 or Client-111111.
+This formula assumes that an organization uses numeric IDs to identify campaign members. For example the ACME Company identifies its clients using 6-digit (or more) IDs such as: 111111, 123456, 102034, and so on. This could also be any alphanumeric combination such as ID_123456 or Client-111111.
 
-Let a whole campagin segment contains 10000 random clients. A Smart Control Group (SCG) identifies a subset using the **last digit** from the ID that is: 11111**1**, 12345**6**, 10203**4**. In other words, a subset contains clients whose ID ends with **1** or...in fact any natural number from 0-9.
+Let a whole campaign segment contains 10000 random clients. A Smart Control Group (SCG) identifies a subset using the **last digit** from the ID that is: 11111**1**, 12345**6**, 10203**4**. In other words, a subset contains clients whose ID ends with **1** or...in fact any natural number from 0-9.
 
 As per calculations below, with a large enough sample (over 1000), each subset represents **10%** of the entire campaign segment.
 
@@ -64,5 +64,5 @@ control_group_distrib(list3)
 ```
 
 ## Resources
-*   [Replit - Pyton Online Sandbox](https://replit.com/@karolcholewa/ControlGroups#main.py)
+*   [Replit - Python Online Sandbox](https://replit.com/@karolcholewa/ControlGroups#main.py)
 *   [Control Groups in Marketing](https://www.optimove.com/resources/learning-center/control-groups-in-marketing#The_Guide_to_Control_Groups_in_Marketing)
