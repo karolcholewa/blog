@@ -13,6 +13,8 @@ Email Marketing community is simply fantastic. It gathers professionals with ric
 *   [https://thebetter.email/resources](https://thebetter.email/resources)
 *   [https://www.goodemailcode.com/](https://www.goodemailcode.com/)
 
+## Bulk Senders Tools
+*   [Gmail Help for Bulk Senders](https://support.google.com/mail/topic/7279058?hl=en&ref_topic=3394151&sjid=5389632040368268620-EU)
 
 ## Salesforce Marketing Cloud + Email Marketing
 
