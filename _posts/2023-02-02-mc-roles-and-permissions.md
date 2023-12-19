@@ -3,7 +3,7 @@ layout: post
 title: "Marketing Cloud Roles and Permissions"
 categories: [SFMC]
 ---
-There are five standard Roles which give access to features related to functions alike. Each role has a set of permissions that allows users perform specific task. In addition to the MC Roles, there are four Email Studio or Classic Roles. While it is hard to remember all the combinations, there are three rules for the permissions: **explicitly granted, explicitly denied, not explicitly granted/denied**&hellip;
+There are five standard Roles which give access to features related to functions alike. Each role has a set of permissions that allow users perform specific task. In addition to the MC Roles, there are four Email Studio or Classic Roles. While it is hard to remember all the combinations, there are three rules for the permissions: **explicitly granted, explicitly denied, not explicitly granted/denied**&hellip;
 
 ## Standard Roles
 The roles are listed from the most to the least access.
@@ -14,7 +14,7 @@ The roles are listed from the most to the least access.
 *   **MC Viewer** - can view omnichannel communication activities
 
 ## Permissions Matrix
-It is hard to remember each Role and its permissions but an **explicitly denied** permission overwrites all other permissions. For the permissions which are **not specifically granted or denied**,  Marketing Cloud **defaults to a deny** permission unless another role grants that permission 
+It is hard to remember each Role and its permissions but an **explicitly denied** permission overwrites all other permissions. For the permissions which are **not specifically granted or denied**,  Marketing Cloud **defaults to deny** permission unless another role grants that permission 
 
 ## MC Administrator
 All permissions are explicitly granted; all sections available.
@@ -48,10 +48,10 @@ It is probably due to the ExactTarget legacy but in addition to the MC Roles the
 *   **Content Creator** - general access plus full access to Content and Shared Classic Content
 *   **Data Manager** - full access to everything in Email Studio except email content
 
-By default all MC roles have the following expansion permissions to Email Studio: *Access System Default Email Templates*, *General Access*. In addition there are a few other additional permissions for each MC role for the Email Studio, therefore the Classic Roles expand MC Roles within the Email Studio.
+By default, all MC roles have the following expansion permissions to Email Studio: *Access System Default Email Templates*, *General Access*. In addition, there are a few other additional permissions for each MC role for the Email Studio, therefore the Classic Roles expand MC Roles within the Email Studio.
 
 ## The Real SFMC Admin
-Assign both the **MC Administrator** and the **Administrator** roles to a full fledged, power Admin.
+Assign both the **MC Administrator** and the **Administrator** roles to a full-fledged, power Admin.
 
 ## Resources
 *   [Trailhead Module](https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-roles-and-permissions-quick-look)
