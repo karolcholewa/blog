@@ -26,11 +26,10 @@ To shorten the debugging section, save the snippet in a separate code block and 
 
 ```javascript
 %%[
-  /* List the attributes and variables to debug, and a separator e.g. | */
+  /* Enter attributes to debug and a separator for example the '|' */
   SET @attributes = ''
   SET @separator = ''
   
-
-  /* Insert the code snippet with the debugging section */
+  /* Insert the code snippet */
   Output(ContentBlockById('12345')) ]%%
 ```
