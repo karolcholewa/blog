@@ -7,13 +7,13 @@ categories: [SFMC]
 A few practical remarks after spending a few days on troubleshooting the Mobile Studio implementation and using it for **Push** and **SMS** in Journey Builder&hellip;
 
 ## Mobile Connect Notes
-*   Mobile = multichannel / real-time engagement / location based / convinient
-*   Design and applicability is determined by by an extra Carrier's dependency
+*   Mobile = multichannel / real-time engagement / location based / convenient
+*   Design and applicability is determined by an extra Carrier's dependency
 *   Two ways of communication: Mobile Terminated (MT) and Mobile Originated (MO)
-*   An SMS Code is an assigned number; a short code is convinient, a long code is a normal, 20-digit number that begins with a country code
+*   An SMS Code is an assigned number; a short code is convenient, a long code is a normal, 20-digit number that begins with a country code
 *   Short codes are specific to a country, but you can use long codes to reach multiple countries for example Austria and Italy could use the same long code
 *   Sender ID is a numeric name, instead of a Long Number; it is one-way only as the Sender ID does not have a number to reply to.
-*   FromName can be provisioned or customized but this feature is not supported in all locales. For example South Africa does not support FromName
+*   FromName can be provisioned or customized, but this feature is not supported in all locales. For example South Africa does not support FromName
 *   Keep SMS content within a single message; translated content may be longer and increase cost
 *   Create content in Content Builder; access the CB from the main menu (not from the Email Studio)
 *   Contact may have more than one Mobile number assigned

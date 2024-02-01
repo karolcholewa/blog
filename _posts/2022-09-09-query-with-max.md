@@ -3,7 +3,7 @@ layout: post
 title: "Query a Sendlog for Latest Emails"
 categories: [SQL]
 ---
-A short and very useful query to find X latests emails logged in a sendlog. This can be any DE really to query&hellip;
+A short and very useful query to find X latest emails logged in a sendlog. This can be any DE really to query&hellip;
 
 ```sql
 SELECT TOP 10 MAX(SendTime), view_email_url

@@ -57,7 +57,7 @@ IF @myParameter== 'Forbidden Value' THEN
 ENDIF
 ```
 
-In the above example, the `RaiseError()` function is used to skip the send if the subscriber's custom parameter `@myParameter` is equal to the forbidden value `'Forbidden Value'`. The function logs the error message `'This is a forbidden value. Skip the send.'` in the `RaiseError_LogDE` data extension and skips the send for the current subscriber.
+In the above example, the `RaiseError()` function is used to skip the send if the subscriber's custom parameter `@myParameter` is equal to the forbidden value `'Forbidden Value'`. The function logs the error message `'This is a forbidden value. Skip the send.'` in the `RaiseError_LogDE` data extension and skips the sent for the current subscriber.
 
 Please note that the `RaiseError()` function still counts as an email send, even if an email was not sent to a subscriber. Therefore, it should only be used for exception handling, not for segmenting or excluding numerous subscribers.
 
