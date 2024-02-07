@@ -3,10 +3,10 @@ layout: post
 title: "Debugging Section for Dynamic Emails"
 categories: [AMPScript, SFMC]
 ---
-This is a useful block for debugging dynamic email templates. Multiple scenarios require various attribute values and/or additional rule and conditions. A debugging section dynamically displays unique attributes and helps evaluate processed content&hellip;
+This is a useful block for debugging dynamic email templates. Multiple scenarios require various attribute values and/or additional rules and conditions. A debugging section shows you the attributes you're using and how they affect the dynamic content&hellip;
 
 ## Debugging Section - Code Snippet
-A debugging section should contain at least a template name and some unique attributes that determine what content displays. The snippet loops through provided, delimited names of attributes (a column name in a sendable data extension) and displays each with a value for a tested Subscriber. 
+In a debugging section, it's essential to include a template name and specific attributes that dictate the displayed content. The code snippet iterates through the delimited attribute names (which correspond to column names in a sendable data extension) and presents each one along with its associated value for a tested Subscriber or a scenario.
 
 ```javascript
 Email name = %%emailname_%%<br>
