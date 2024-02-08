@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Pragmatic with Scrum"
-categories: [SFMC]
+title: "Pragmatic Scrum"
+categories: [Career]
 ---
 Scrum is a framework for agile project management that helps teams collaborate, prioritize, and deliver value to customers. Scrum can also help you reduce anxiety by breaking down complex tasks into manageable chunks, giving you clear feedback, and empowering you to make decisions&hellip;
 
@@ -15,4 +15,5 @@ Using Scrum can help you manage your anxiety by giving you structure, clarity, a
 
 
 ## Resources
-- https://scrumguides.org/
+ [Scrum Guides](https://scrumguides.org/)
+- 
