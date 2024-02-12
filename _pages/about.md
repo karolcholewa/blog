@@ -42,4 +42,3 @@ You can use content from posts without restrictions unless it is marked and attr
 ## 🔗 Let's connect 
 * On [LinkedIn](https://www.linkedin.com/in/karolcholewa/)
 * or send an email to karol.ch@gmail.com
-<!--* Follow on [Twitter](https://twitter.com/karolcholewa)-->
