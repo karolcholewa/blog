@@ -53,5 +53,7 @@ Email Marketing community is simply fantastic. It gathers professionals with ric
 *   [AMPScript Best Practices](https://quip.com/zMknAREQd4Bl)
 *   [Email Coding Platform Parcel.io](https://parcel.io)
 *   [SFMCJobs](https://www.sfmcjobs.com/)
+*   [SFMC Stack](https://www.sfmcstack.com/)
+*   [SFMC Simplified](https://www.sfmcsimplified.com/)
 
 
