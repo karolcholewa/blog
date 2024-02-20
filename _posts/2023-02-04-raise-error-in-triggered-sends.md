@@ -3,7 +3,7 @@ layout: post
 title: "RaiseError() in Triggered Sends"
 categories: [SFMC, AMPScript]
 ---
-I noticed that after logging an error and skipping a triggered send to a specific subscriber, the number of errors in the triggered send interaction increments too. I wanted to document it and ended up with an AI generated content as an excercise. I prompted ChatGPT and Microsoft Bing Chat to write this post&hellip;
+I noticed that after logging an error and skipping a triggered send to a specific subscriber, the number of errors in the triggered send interaction increments too. I wanted to document it and ended up with an AI generated content as an exercise. I prompted ChatGPT and Microsoft Bing Chat to write this post&hellip;
 
 ## The Prompt I Asked
 I haven't done any training yet but here is what I asked:
