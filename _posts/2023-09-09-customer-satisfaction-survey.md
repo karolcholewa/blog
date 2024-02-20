@@ -56,4 +56,3 @@ Having the subscriberkey, additional attributes can be either looked up from ano
 
 ## Resources
 *   [Conversation with Bing]
-*   [Github] (https://github.com/jahidmunna/purera/tree/3b609d0f95fc9b01b07bb1b0f95b8563961f4749/editcustomer.php.)
