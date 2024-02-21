@@ -52,7 +52,12 @@ ENDIF
 ]%%
 ```
 ### Personalized Thank You Page
-Having the subscriberkey, additional attributes can be either looked up from another data extension or passed as links parameters. Also the content of the Thank You page can be dynamic based on the feedback.
+The Thank You page could/should be personalized. Having the subscriberkey, you can look up additional attributes and use for dynamic content on the CloudPage.
 
 ## Resources
-*   [Conversation with Bing]
+*   Conversation with Bing
+*   [The AMPscript Guide - CloudPagesURL](https://ampscript.guide/cloudpagesurl/)
+*   [The AMPscript Guide - RequestParameter](https://ampscript.guide/requestparameter/)
+*   [The AMPscript Guide - Lookup](https://ampscript.guide/lookup/)
+*   [The AMPscript Guide - UpsertData](https://ampscript.guide/upsertdata/)
+*   [The AMPscript Guide - UpdateData](https://ampscript.guide/updatedata/)
