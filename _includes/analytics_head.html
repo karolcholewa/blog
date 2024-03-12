@@ -4,6 +4,13 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics_ga4 }}');
+        gtag('config', '{{ site.google_analytics_ga4 }}'
+        ,{'allow_google_signals': true}
+        ,{'campaign': {
+          'id': '1111',
+           'source': 'google',
+           'name': 'personalNotes'     
+            
+  });
       </script>
 {% endif %}
