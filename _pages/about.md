@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Hi!👋 My name is Karol (Carlito EmailGeek) and this is my **martech blog**. Around 2015 as a wannabe front-end developer I stumbled upon an HTML email newsletter. This is how *I was picked by the email marketing profession* and started blazing the trail of the **Salesforce Marketing Cloud**.
+Hi!👋 My name is Karol (Carlito EmailGeek) and this is my space where I **document anything** I find useful. Around 2015 I stumbled upon an HTML email newsletter. This is how *I was picked by the email marketing profession* and started blazing the trail of the **Salesforce Marketing Cloud**.
 
 
 ## ★ Purpose 
 
-I can't memorize everything so I document useful notes into my blog. I collect and share  **HTML email hacks, Excel formulas, SFMC platform hints, SQL queries, AMPScript and SSJS code snippets**. I reference lots of URLs to valuable web resources and SFMC MVPs. Code snippets have been tested and usually used at least once by myself. Some of the notes may become outdated or even obsolete and I don't guarantee revisions.
+I collect and share  **HTML email hacks, Excel formulas, SFMC platform hints, SQL queries, AMPScript and SSJS code snippets**. I reference lots of URLs to valuable web resources and SFMC MVPs. Code snippets have been tested and usually used at least once by myself. Some of the notes may become outdated or even obsolete and I don't guarantee revisions.
 
 <!--
 ## 🔨 Toolset
